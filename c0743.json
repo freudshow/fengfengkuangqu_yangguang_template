@@ -3,7 +3,7 @@
     {
       "no": 0,
       "NameDesc": "并网点电表1-CT变比",
-      "RtdbNo": 1070,
+      "RtdbNo": 642,
       "para1": "800",
       "para2": "/",
       "para3": "5",
@@ -28,7 +28,7 @@
     {
       "no": 1,
       "NameDesc": "并网点电表2-CT变比",
-      "RtdbNo": 1071,
+      "RtdbNo": 643,
       "para1": "800",
       "para2": "/",
       "para3": "5",
@@ -53,7 +53,7 @@
     {
       "no": 2,
       "NameDesc": "逆变器1-额定容量",
-      "RtdbNo": 1072,
+      "RtdbNo": 644,
       "para1": "40",
       "para2": "",
       "para3": "",
@@ -78,7 +78,7 @@
     {
       "no": 3,
       "NameDesc": "逆变器2-额定容量",
-      "RtdbNo": 1073,
+      "RtdbNo": 645,
       "para1": "40",
       "para2": "",
       "para3": "",
@@ -103,7 +103,7 @@
     {
       "no": 4,
       "NameDesc": "逆变器3-额定容量",
-      "RtdbNo": 1074,
+      "RtdbNo": 646,
       "para1": "40",
       "para2": "",
       "para3": "",
@@ -128,7 +128,7 @@
     {
       "no": 5,
       "NameDesc": "逆变器4-额定容量",
-      "RtdbNo": 1075,
+      "RtdbNo": 647,
       "para1": "40",
       "para2": "",
       "para3": "",
@@ -153,7 +153,7 @@
     {
       "no": 6,
       "NameDesc": "逆变器5-额定容量",
-      "RtdbNo": 1076,
+      "RtdbNo": 648,
       "para1": "40",
       "para2": "",
       "para3": "",
@@ -178,7 +178,7 @@
     {
       "no": 7,
       "NameDesc": "逆变器6-额定容量",
-      "RtdbNo": 1077,
+      "RtdbNo": 649,
       "para1": "40",
       "para2": "",
       "para3": "",
@@ -203,7 +203,7 @@
     {
       "no": 8,
       "NameDesc": "逆变器7-额定容量",
-      "RtdbNo": 1078,
+      "RtdbNo": 650,
       "para1": "40",
       "para2": "",
       "para3": "",
@@ -228,7 +228,7 @@
     {
       "no": 9,
       "NameDesc": "逆变器8-额定容量",
-      "RtdbNo": 1079,
+      "RtdbNo": 651,
       "para1": "40",
       "para2": "",
       "para3": "",
@@ -253,7 +253,7 @@
     {
       "no": 10,
       "NameDesc": "逆变器9-额定容量",
-      "RtdbNo": 1080,
+      "RtdbNo": 652,
       "para1": "40",
       "para2": "",
       "para3": "",
@@ -278,7 +278,7 @@
     {
       "no": 11,
       "NameDesc": "逆变器10-额定容量",
-      "RtdbNo": 1081,
+      "RtdbNo": 653,
       "para1": "40",
       "para2": "",
       "para3": "",
