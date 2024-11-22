@@ -10,18 +10,18 @@
       "data": [
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 1,
           "DataItemCount": 17,
           "SlaveDevAddr": 1,
+          "ModbusRegAddr": 5002,
           "GetRegCount": 22,
           "AreaNum": 0,
           "DataProperty": 1,
           "DataType": "ModbusDataType_MultiType",
+          "DataTypeEnum": 7,
           "LowAddr": 5002,
           "HighAddr": 5023,
           "DataFormat": 0,
-          "StoreRegStartAddr": 1,
-          "ModbusRegAddr": 5002,
-          "DataTypeEnum": 7,
           "KeyDec": null,
           "KeyMode": null,
           "KeyCoe": null,
@@ -30,7 +30,7 @@
             {
               "No": 0,
               "KeyMode": null,
-              "KeyDec": "日发电量",
+              "KeyDec": "逆变器1-日发电量",
               "KeyCoe": 0.1,
               "StartRegAddr": 5002,
               "EndRegAddr": 5002,
@@ -42,7 +42,7 @@
             {
               "No": 1,
               "KeyMode": null,
-              "KeyDec": "总发电量",
+              "KeyDec": "逆变器1-总发电量",
               "KeyCoe": 1.0,
               "StartRegAddr": 5003,
               "EndRegAddr": 5004,
@@ -54,7 +54,7 @@
             {
               "No": 2,
               "KeyMode": null,
-              "KeyDec": "总并网运行时间",
+              "KeyDec": "逆变器1-总并网运行时间",
               "KeyCoe": 1.0,
               "StartRegAddr": 5005,
               "EndRegAddr": 5006,
@@ -66,7 +66,7 @@
             {
               "No": 3,
               "KeyMode": null,
-              "KeyDec": "总视在功率",
+              "KeyDec": "逆变器1-总视在功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5008,
               "EndRegAddr": 5009,
@@ -78,7 +78,7 @@
             {
               "No": 4,
               "KeyMode": null,
-              "KeyDec": "MPPT1电压",
+              "KeyDec": "逆变器1-MPPT1电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5010,
               "EndRegAddr": 5010,
@@ -90,7 +90,7 @@
             {
               "No": 5,
               "KeyMode": null,
-              "KeyDec": "MPPT1电流",
+              "KeyDec": "逆变器1-MPPT1电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5011,
               "EndRegAddr": 5011,
@@ -102,7 +102,7 @@
             {
               "No": 6,
               "KeyMode": null,
-              "KeyDec": "MPPT2电压",
+              "KeyDec": "逆变器1-MPPT2电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5012,
               "EndRegAddr": 5012,
@@ -114,7 +114,7 @@
             {
               "No": 7,
               "KeyMode": null,
-              "KeyDec": "MPPT2电流",
+              "KeyDec": "逆变器1-MPPT2电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5013,
               "EndRegAddr": 5013,
@@ -126,7 +126,7 @@
             {
               "No": 8,
               "KeyMode": null,
-              "KeyDec": "MPPT3电压",
+              "KeyDec": "逆变器1-MPPT3电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5014,
               "EndRegAddr": 5014,
@@ -138,7 +138,7 @@
             {
               "No": 9,
               "KeyMode": null,
-              "KeyDec": "MPPT3电流",
+              "KeyDec": "逆变器1-MPPT3电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5015,
               "EndRegAddr": 5015,
@@ -150,7 +150,7 @@
             {
               "No": 10,
               "KeyMode": null,
-              "KeyDec": "总直流功率 ",
+              "KeyDec": "逆变器1-总直流功率 ",
               "KeyCoe": 0.001,
               "StartRegAddr": 5016,
               "EndRegAddr": 5017,
@@ -162,7 +162,7 @@
             {
               "No": 11,
               "KeyMode": null,
-              "KeyDec": "A相电压",
+              "KeyDec": "逆变器1-A相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5018,
               "EndRegAddr": 5018,
@@ -174,7 +174,7 @@
             {
               "No": 12,
               "KeyMode": null,
-              "KeyDec": "B相电压",
+              "KeyDec": "逆变器1-B相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5019,
               "EndRegAddr": 5019,
@@ -186,7 +186,7 @@
             {
               "No": 13,
               "KeyMode": null,
-              "KeyDec": "C相电压",
+              "KeyDec": "逆变器1-C相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5020,
               "EndRegAddr": 5020,
@@ -198,7 +198,7 @@
             {
               "No": 14,
               "KeyMode": null,
-              "KeyDec": "A相电流",
+              "KeyDec": "逆变器1-A相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5021,
               "EndRegAddr": 5021,
@@ -210,7 +210,7 @@
             {
               "No": 15,
               "KeyMode": null,
-              "KeyDec": "B相电流",
+              "KeyDec": "逆变器1-B相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5022,
               "EndRegAddr": 5022,
@@ -222,7 +222,7 @@
             {
               "No": 16,
               "KeyMode": null,
-              "KeyDec": "C相电流",
+              "KeyDec": "逆变器1-C相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5023,
               "EndRegAddr": 5023,
@@ -235,18 +235,18 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 18,
           "DataItemCount": 6,
           "SlaveDevAddr": 1,
+          "ModbusRegAddr": 5030,
           "GetRegCount": 8,
           "AreaNum": 1,
           "DataProperty": 1,
           "DataType": "ModbusDataType_MultiType",
+          "DataTypeEnum": 7,
           "LowAddr": 5030,
           "HighAddr": 5037,
           "DataFormat": 0,
-          "StoreRegStartAddr": 18,
-          "ModbusRegAddr": 5030,
-          "DataTypeEnum": 7,
           "KeyDec": null,
           "KeyMode": null,
           "KeyCoe": null,
@@ -255,7 +255,7 @@
             {
               "No": 0,
               "KeyMode": null,
-              "KeyDec": "总有功功率",
+              "KeyDec": "逆变器1-总有功功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5030,
               "EndRegAddr": 5031,
@@ -267,7 +267,7 @@
             {
               "No": 1,
               "KeyMode": null,
-              "KeyDec": "总无功功率",
+              "KeyDec": "逆变器1-总无功功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5032,
               "EndRegAddr": 5033,
@@ -279,7 +279,7 @@
             {
               "No": 2,
               "KeyMode": null,
-              "KeyDec": "总功率因数",
+              "KeyDec": "逆变器1-总功率因数",
               "KeyCoe": 0.001,
               "StartRegAddr": 5034,
               "EndRegAddr": 5034,
@@ -291,7 +291,7 @@
             {
               "No": 3,
               "KeyMode": null,
-              "KeyDec": "电网频率",
+              "KeyDec": "逆变器1-电网频率",
               "KeyCoe": 0.1,
               "StartRegAddr": 5035,
               "EndRegAddr": 5035,
@@ -303,7 +303,7 @@
             {
               "No": 4,
               "KeyMode": null,
-              "KeyDec": "逆变器效率",
+              "KeyDec": "逆变器1-逆变器效率",
               "KeyCoe": 0.01,
               "StartRegAddr": 5036,
               "EndRegAddr": 5036,
@@ -315,7 +315,7 @@
             {
               "No": 5,
               "KeyMode": null,
-              "KeyDec": "设备工作状态",
+              "KeyDec": "逆变器1-设备工作状态",
               "KeyCoe": 1.0,
               "StartRegAddr": 5037,
               "EndRegAddr": 5037,
@@ -328,20 +328,20 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 24,
           "DataItemCount": 1,
           "SlaveDevAddr": 1,
+          "ModbusRegAddr": 5070,
           "GetRegCount": 1,
           "AreaNum": 2,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5070,
           "HighAddr": 5070,
           "DataFormat": 0,
-          "StoreRegStartAddr": 24,
-          "ModbusRegAddr": 5070,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "方阵绝缘阻抗"
+            "逆变器1-方阵绝缘阻抗"
           ],
           "KeyMode": [
             ""
@@ -354,20 +354,20 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 25,
           "DataItemCount": 1,
           "SlaveDevAddr": 1,
+          "ModbusRegAddr": 5113,
           "GetRegCount": 1,
           "AreaNum": 3,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5113,
           "HighAddr": 5113,
           "DataFormat": 0,
-          "StoreRegStartAddr": 25,
-          "ModbusRegAddr": 5113,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "日并网运行时间分钟"
+            "逆变器1-日并网运行时间分钟"
           ],
           "KeyMode": [
             ""
@@ -380,29 +380,29 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 26,
           "DataItemCount": 10,
           "SlaveDevAddr": 1,
+          "ModbusRegAddr": 5114,
           "GetRegCount": 10,
           "AreaNum": 4,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5114,
           "HighAddr": 5123,
           "DataFormat": 0,
-          "StoreRegStartAddr": 26,
-          "ModbusRegAddr": 5114,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "MPPT4电压",
-            "MPPT4电流 ",
-            "MPPT5电压",
-            "MPPT5电流 ",
-            "MPPT6电压",
-            "MPPT6电流 ",
-            "MPPT7电压",
-            "MPPT7电流 ",
-            "MPPT8电压",
-            "MPPT8电流 "
+            "逆变器1-MPPT4电压",
+            "逆变器1-MPPT4电流",
+            "逆变器1-MPPT5电压",
+            "逆变器1-MPPT5电流",
+            "逆变器1-MPPT6电压",
+            "逆变器1-MPPT6电流",
+            "逆变器1-MPPT7电压",
+            "逆变器1-MPPT7电流",
+            "逆变器1-MPPT8电压",
+            "逆变器1-MPPT8电流"
           ],
           "KeyMode": [
             "",
@@ -440,18 +440,18 @@
       "data": [
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 1,
           "DataItemCount": 17,
           "SlaveDevAddr": 2,
+          "ModbusRegAddr": 5002,
           "GetRegCount": 22,
           "AreaNum": 0,
           "DataProperty": 1,
           "DataType": "ModbusDataType_MultiType",
+          "DataTypeEnum": 7,
           "LowAddr": 5002,
           "HighAddr": 5023,
           "DataFormat": 0,
-          "StoreRegStartAddr": 1,
-          "ModbusRegAddr": 5002,
-          "DataTypeEnum": 7,
           "KeyDec": null,
           "KeyMode": null,
           "KeyCoe": null,
@@ -460,7 +460,7 @@
             {
               "No": 0,
               "KeyMode": null,
-              "KeyDec": "日发电量",
+              "KeyDec": "逆变器2-日发电量",
               "KeyCoe": 0.1,
               "StartRegAddr": 5002,
               "EndRegAddr": 5002,
@@ -472,7 +472,7 @@
             {
               "No": 1,
               "KeyMode": null,
-              "KeyDec": "总发电量",
+              "KeyDec": "逆变器2-总发电量",
               "KeyCoe": 1.0,
               "StartRegAddr": 5003,
               "EndRegAddr": 5004,
@@ -484,7 +484,7 @@
             {
               "No": 2,
               "KeyMode": null,
-              "KeyDec": "总并网运行时间",
+              "KeyDec": "逆变器2-总并网运行时间",
               "KeyCoe": 1.0,
               "StartRegAddr": 5005,
               "EndRegAddr": 5006,
@@ -496,7 +496,7 @@
             {
               "No": 3,
               "KeyMode": null,
-              "KeyDec": "总视在功率",
+              "KeyDec": "逆变器2-总视在功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5008,
               "EndRegAddr": 5009,
@@ -508,7 +508,7 @@
             {
               "No": 4,
               "KeyMode": null,
-              "KeyDec": "MPPT1电压",
+              "KeyDec": "逆变器2-MPPT1电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5010,
               "EndRegAddr": 5010,
@@ -520,7 +520,7 @@
             {
               "No": 5,
               "KeyMode": null,
-              "KeyDec": "MPPT1电流",
+              "KeyDec": "逆变器2-MPPT1电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5011,
               "EndRegAddr": 5011,
@@ -532,7 +532,7 @@
             {
               "No": 6,
               "KeyMode": null,
-              "KeyDec": "MPPT2电压",
+              "KeyDec": "逆变器2-MPPT2电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5012,
               "EndRegAddr": 5012,
@@ -544,7 +544,7 @@
             {
               "No": 7,
               "KeyMode": null,
-              "KeyDec": "MPPT2电流",
+              "KeyDec": "逆变器2-MPPT2电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5013,
               "EndRegAddr": 5013,
@@ -556,7 +556,7 @@
             {
               "No": 8,
               "KeyMode": null,
-              "KeyDec": "MPPT3电压",
+              "KeyDec": "逆变器2-MPPT3电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5014,
               "EndRegAddr": 5014,
@@ -568,7 +568,7 @@
             {
               "No": 9,
               "KeyMode": null,
-              "KeyDec": "MPPT3电流",
+              "KeyDec": "逆变器2-MPPT3电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5015,
               "EndRegAddr": 5015,
@@ -580,7 +580,7 @@
             {
               "No": 10,
               "KeyMode": null,
-              "KeyDec": "总直流功率 ",
+              "KeyDec": "逆变器2-总直流功率 ",
               "KeyCoe": 0.001,
               "StartRegAddr": 5016,
               "EndRegAddr": 5017,
@@ -592,7 +592,7 @@
             {
               "No": 11,
               "KeyMode": null,
-              "KeyDec": "A相电压",
+              "KeyDec": "逆变器2-A相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5018,
               "EndRegAddr": 5018,
@@ -604,7 +604,7 @@
             {
               "No": 12,
               "KeyMode": null,
-              "KeyDec": "B相电压",
+              "KeyDec": "逆变器2-B相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5019,
               "EndRegAddr": 5019,
@@ -616,7 +616,7 @@
             {
               "No": 13,
               "KeyMode": null,
-              "KeyDec": "C相电压",
+              "KeyDec": "逆变器2-C相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5020,
               "EndRegAddr": 5020,
@@ -628,7 +628,7 @@
             {
               "No": 14,
               "KeyMode": null,
-              "KeyDec": "A相电流",
+              "KeyDec": "逆变器2-A相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5021,
               "EndRegAddr": 5021,
@@ -640,7 +640,7 @@
             {
               "No": 15,
               "KeyMode": null,
-              "KeyDec": "B相电流",
+              "KeyDec": "逆变器2-B相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5022,
               "EndRegAddr": 5022,
@@ -652,7 +652,7 @@
             {
               "No": 16,
               "KeyMode": null,
-              "KeyDec": "C相电流",
+              "KeyDec": "逆变器2-C相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5023,
               "EndRegAddr": 5023,
@@ -665,18 +665,18 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 18,
           "DataItemCount": 6,
           "SlaveDevAddr": 2,
+          "ModbusRegAddr": 5030,
           "GetRegCount": 8,
           "AreaNum": 1,
           "DataProperty": 1,
           "DataType": "ModbusDataType_MultiType",
+          "DataTypeEnum": 7,
           "LowAddr": 5030,
           "HighAddr": 5037,
           "DataFormat": 0,
-          "StoreRegStartAddr": 18,
-          "ModbusRegAddr": 5030,
-          "DataTypeEnum": 7,
           "KeyDec": null,
           "KeyMode": null,
           "KeyCoe": null,
@@ -685,7 +685,7 @@
             {
               "No": 0,
               "KeyMode": null,
-              "KeyDec": "总有功功率",
+              "KeyDec": "逆变器2-总有功功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5030,
               "EndRegAddr": 5031,
@@ -697,7 +697,7 @@
             {
               "No": 1,
               "KeyMode": null,
-              "KeyDec": "总无功功率",
+              "KeyDec": "逆变器2-总无功功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5032,
               "EndRegAddr": 5033,
@@ -709,7 +709,7 @@
             {
               "No": 2,
               "KeyMode": null,
-              "KeyDec": "总功率因数",
+              "KeyDec": "逆变器2-总功率因数",
               "KeyCoe": 0.001,
               "StartRegAddr": 5034,
               "EndRegAddr": 5034,
@@ -721,7 +721,7 @@
             {
               "No": 3,
               "KeyMode": null,
-              "KeyDec": "电网频率",
+              "KeyDec": "逆变器2-电网频率",
               "KeyCoe": 0.1,
               "StartRegAddr": 5035,
               "EndRegAddr": 5035,
@@ -733,7 +733,7 @@
             {
               "No": 4,
               "KeyMode": null,
-              "KeyDec": "逆变器效率",
+              "KeyDec": "逆变器2-逆变器效率",
               "KeyCoe": 0.01,
               "StartRegAddr": 5036,
               "EndRegAddr": 5036,
@@ -745,7 +745,7 @@
             {
               "No": 5,
               "KeyMode": null,
-              "KeyDec": "设备工作状态",
+              "KeyDec": "逆变器2-设备工作状态",
               "KeyCoe": 1.0,
               "StartRegAddr": 5037,
               "EndRegAddr": 5037,
@@ -758,20 +758,20 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 24,
           "DataItemCount": 1,
           "SlaveDevAddr": 2,
+          "ModbusRegAddr": 5070,
           "GetRegCount": 1,
           "AreaNum": 2,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5070,
           "HighAddr": 5070,
           "DataFormat": 0,
-          "StoreRegStartAddr": 24,
-          "ModbusRegAddr": 5070,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "方阵绝缘阻抗"
+            "逆变器2-方阵绝缘阻抗"
           ],
           "KeyMode": [
             ""
@@ -784,20 +784,20 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 25,
           "DataItemCount": 1,
           "SlaveDevAddr": 2,
+          "ModbusRegAddr": 5113,
           "GetRegCount": 1,
           "AreaNum": 3,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5113,
           "HighAddr": 5113,
           "DataFormat": 0,
-          "StoreRegStartAddr": 25,
-          "ModbusRegAddr": 5113,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "日并网运行时间分钟"
+            "逆变器2-日并网运行时间分钟"
           ],
           "KeyMode": [
             ""
@@ -810,29 +810,29 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 26,
           "DataItemCount": 10,
           "SlaveDevAddr": 2,
+          "ModbusRegAddr": 5114,
           "GetRegCount": 10,
           "AreaNum": 4,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5114,
           "HighAddr": 5123,
           "DataFormat": 0,
-          "StoreRegStartAddr": 26,
-          "ModbusRegAddr": 5114,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "MPPT4电压",
-            "MPPT4电流 ",
-            "MPPT5电压",
-            "MPPT5电流 ",
-            "MPPT6电压",
-            "MPPT6电流 ",
-            "MPPT7电压",
-            "MPPT7电流 ",
-            "MPPT8电压",
-            "MPPT8电流 "
+            "逆变器2-MPPT4电压",
+            "逆变器2-MPPT4电流",
+            "逆变器2-MPPT5电压",
+            "逆变器2-MPPT5电流",
+            "逆变器2-MPPT6电压",
+            "逆变器2-MPPT6电流",
+            "逆变器2-MPPT7电压",
+            "逆变器2-MPPT7电流",
+            "逆变器2-MPPT8电压",
+            "逆变器2-MPPT8电流"
           ],
           "KeyMode": [
             "",
@@ -870,18 +870,18 @@
       "data": [
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 1,
           "DataItemCount": 17,
           "SlaveDevAddr": 3,
+          "ModbusRegAddr": 5002,
           "GetRegCount": 22,
           "AreaNum": 0,
           "DataProperty": 1,
           "DataType": "ModbusDataType_MultiType",
+          "DataTypeEnum": 7,
           "LowAddr": 5002,
           "HighAddr": 5023,
           "DataFormat": 0,
-          "StoreRegStartAddr": 1,
-          "ModbusRegAddr": 5002,
-          "DataTypeEnum": 7,
           "KeyDec": null,
           "KeyMode": null,
           "KeyCoe": null,
@@ -890,7 +890,7 @@
             {
               "No": 0,
               "KeyMode": null,
-              "KeyDec": "日发电量",
+              "KeyDec": "逆变器3-日发电量",
               "KeyCoe": 0.1,
               "StartRegAddr": 5002,
               "EndRegAddr": 5002,
@@ -902,7 +902,7 @@
             {
               "No": 1,
               "KeyMode": null,
-              "KeyDec": "总发电量",
+              "KeyDec": "逆变器3-总发电量",
               "KeyCoe": 1.0,
               "StartRegAddr": 5003,
               "EndRegAddr": 5004,
@@ -914,7 +914,7 @@
             {
               "No": 2,
               "KeyMode": null,
-              "KeyDec": "总并网运行时间",
+              "KeyDec": "逆变器3-总并网运行时间",
               "KeyCoe": 1.0,
               "StartRegAddr": 5005,
               "EndRegAddr": 5006,
@@ -926,7 +926,7 @@
             {
               "No": 3,
               "KeyMode": null,
-              "KeyDec": "总视在功率",
+              "KeyDec": "逆变器3-总视在功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5008,
               "EndRegAddr": 5009,
@@ -938,7 +938,7 @@
             {
               "No": 4,
               "KeyMode": null,
-              "KeyDec": "MPPT1电压",
+              "KeyDec": "逆变器3-MPPT1电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5010,
               "EndRegAddr": 5010,
@@ -950,7 +950,7 @@
             {
               "No": 5,
               "KeyMode": null,
-              "KeyDec": "MPPT1电流",
+              "KeyDec": "逆变器3-MPPT1电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5011,
               "EndRegAddr": 5011,
@@ -962,7 +962,7 @@
             {
               "No": 6,
               "KeyMode": null,
-              "KeyDec": "MPPT2电压",
+              "KeyDec": "逆变器3-MPPT2电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5012,
               "EndRegAddr": 5012,
@@ -974,7 +974,7 @@
             {
               "No": 7,
               "KeyMode": null,
-              "KeyDec": "MPPT2电流",
+              "KeyDec": "逆变器3-MPPT2电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5013,
               "EndRegAddr": 5013,
@@ -986,7 +986,7 @@
             {
               "No": 8,
               "KeyMode": null,
-              "KeyDec": "MPPT3电压",
+              "KeyDec": "逆变器3-MPPT3电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5014,
               "EndRegAddr": 5014,
@@ -998,7 +998,7 @@
             {
               "No": 9,
               "KeyMode": null,
-              "KeyDec": "MPPT3电流",
+              "KeyDec": "逆变器3-MPPT3电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5015,
               "EndRegAddr": 5015,
@@ -1010,7 +1010,7 @@
             {
               "No": 10,
               "KeyMode": null,
-              "KeyDec": "总直流功率 ",
+              "KeyDec": "逆变器3-总直流功率 ",
               "KeyCoe": 0.001,
               "StartRegAddr": 5016,
               "EndRegAddr": 5017,
@@ -1022,7 +1022,7 @@
             {
               "No": 11,
               "KeyMode": null,
-              "KeyDec": "A相电压",
+              "KeyDec": "逆变器3-A相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5018,
               "EndRegAddr": 5018,
@@ -1034,7 +1034,7 @@
             {
               "No": 12,
               "KeyMode": null,
-              "KeyDec": "B相电压",
+              "KeyDec": "逆变器3-B相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5019,
               "EndRegAddr": 5019,
@@ -1046,7 +1046,7 @@
             {
               "No": 13,
               "KeyMode": null,
-              "KeyDec": "C相电压",
+              "KeyDec": "逆变器3-C相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5020,
               "EndRegAddr": 5020,
@@ -1058,7 +1058,7 @@
             {
               "No": 14,
               "KeyMode": null,
-              "KeyDec": "A相电流",
+              "KeyDec": "逆变器3-A相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5021,
               "EndRegAddr": 5021,
@@ -1070,7 +1070,7 @@
             {
               "No": 15,
               "KeyMode": null,
-              "KeyDec": "B相电流",
+              "KeyDec": "逆变器3-B相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5022,
               "EndRegAddr": 5022,
@@ -1082,7 +1082,7 @@
             {
               "No": 16,
               "KeyMode": null,
-              "KeyDec": "C相电流",
+              "KeyDec": "逆变器3-C相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5023,
               "EndRegAddr": 5023,
@@ -1095,18 +1095,18 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 18,
           "DataItemCount": 6,
           "SlaveDevAddr": 3,
+          "ModbusRegAddr": 5030,
           "GetRegCount": 8,
           "AreaNum": 1,
           "DataProperty": 1,
           "DataType": "ModbusDataType_MultiType",
+          "DataTypeEnum": 7,
           "LowAddr": 5030,
           "HighAddr": 5037,
           "DataFormat": 0,
-          "StoreRegStartAddr": 18,
-          "ModbusRegAddr": 5030,
-          "DataTypeEnum": 7,
           "KeyDec": null,
           "KeyMode": null,
           "KeyCoe": null,
@@ -1115,7 +1115,7 @@
             {
               "No": 0,
               "KeyMode": null,
-              "KeyDec": "总有功功率",
+              "KeyDec": "逆变器3-总有功功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5030,
               "EndRegAddr": 5031,
@@ -1127,7 +1127,7 @@
             {
               "No": 1,
               "KeyMode": null,
-              "KeyDec": "总无功功率",
+              "KeyDec": "逆变器3-总无功功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5032,
               "EndRegAddr": 5033,
@@ -1139,7 +1139,7 @@
             {
               "No": 2,
               "KeyMode": null,
-              "KeyDec": "总功率因数",
+              "KeyDec": "逆变器3-总功率因数",
               "KeyCoe": 0.001,
               "StartRegAddr": 5034,
               "EndRegAddr": 5034,
@@ -1151,7 +1151,7 @@
             {
               "No": 3,
               "KeyMode": null,
-              "KeyDec": "电网频率",
+              "KeyDec": "逆变器3-电网频率",
               "KeyCoe": 0.1,
               "StartRegAddr": 5035,
               "EndRegAddr": 5035,
@@ -1163,7 +1163,7 @@
             {
               "No": 4,
               "KeyMode": null,
-              "KeyDec": "逆变器效率",
+              "KeyDec": "逆变器3-逆变器效率",
               "KeyCoe": 0.01,
               "StartRegAddr": 5036,
               "EndRegAddr": 5036,
@@ -1175,7 +1175,7 @@
             {
               "No": 5,
               "KeyMode": null,
-              "KeyDec": "设备工作状态",
+              "KeyDec": "逆变器3-设备工作状态",
               "KeyCoe": 1.0,
               "StartRegAddr": 5037,
               "EndRegAddr": 5037,
@@ -1188,20 +1188,20 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 24,
           "DataItemCount": 1,
           "SlaveDevAddr": 3,
+          "ModbusRegAddr": 5070,
           "GetRegCount": 1,
           "AreaNum": 2,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5070,
           "HighAddr": 5070,
           "DataFormat": 0,
-          "StoreRegStartAddr": 24,
-          "ModbusRegAddr": 5070,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "方阵绝缘阻抗"
+            "逆变器3-方阵绝缘阻抗"
           ],
           "KeyMode": [
             ""
@@ -1214,20 +1214,20 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 25,
           "DataItemCount": 1,
           "SlaveDevAddr": 3,
+          "ModbusRegAddr": 5113,
           "GetRegCount": 1,
           "AreaNum": 3,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5113,
           "HighAddr": 5113,
           "DataFormat": 0,
-          "StoreRegStartAddr": 25,
-          "ModbusRegAddr": 5113,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "日并网运行时间分钟"
+            "逆变器3-日并网运行时间分钟"
           ],
           "KeyMode": [
             ""
@@ -1240,29 +1240,29 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 26,
           "DataItemCount": 10,
           "SlaveDevAddr": 3,
+          "ModbusRegAddr": 5114,
           "GetRegCount": 10,
           "AreaNum": 4,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5114,
           "HighAddr": 5123,
           "DataFormat": 0,
-          "StoreRegStartAddr": 26,
-          "ModbusRegAddr": 5114,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "MPPT4电压",
-            "MPPT4电流 ",
-            "MPPT5电压",
-            "MPPT5电流 ",
-            "MPPT6电压",
-            "MPPT6电流 ",
-            "MPPT7电压",
-            "MPPT7电流 ",
-            "MPPT8电压",
-            "MPPT8电流 "
+            "逆变器3-MPPT4电压",
+            "逆变器3-MPPT4电流",
+            "逆变器3-MPPT5电压",
+            "逆变器3-MPPT5电流",
+            "逆变器3-MPPT6电压",
+            "逆变器3-MPPT6电流",
+            "逆变器3-MPPT7电压",
+            "逆变器3-MPPT7电流",
+            "逆变器3-MPPT8电压",
+            "逆变器3-MPPT8电流"
           ],
           "KeyMode": [
             "",
@@ -1300,18 +1300,18 @@
       "data": [
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 1,
           "DataItemCount": 17,
           "SlaveDevAddr": 4,
+          "ModbusRegAddr": 5002,
           "GetRegCount": 22,
           "AreaNum": 0,
           "DataProperty": 1,
           "DataType": "ModbusDataType_MultiType",
+          "DataTypeEnum": 7,
           "LowAddr": 5002,
           "HighAddr": 5023,
           "DataFormat": 0,
-          "StoreRegStartAddr": 1,
-          "ModbusRegAddr": 5002,
-          "DataTypeEnum": 7,
           "KeyDec": null,
           "KeyMode": null,
           "KeyCoe": null,
@@ -1320,7 +1320,7 @@
             {
               "No": 0,
               "KeyMode": null,
-              "KeyDec": "日发电量",
+              "KeyDec": "逆变器4-日发电量",
               "KeyCoe": 0.1,
               "StartRegAddr": 5002,
               "EndRegAddr": 5002,
@@ -1332,7 +1332,7 @@
             {
               "No": 1,
               "KeyMode": null,
-              "KeyDec": "总发电量",
+              "KeyDec": "逆变器4-总发电量",
               "KeyCoe": 1.0,
               "StartRegAddr": 5003,
               "EndRegAddr": 5004,
@@ -1344,7 +1344,7 @@
             {
               "No": 2,
               "KeyMode": null,
-              "KeyDec": "总并网运行时间",
+              "KeyDec": "逆变器4-总并网运行时间",
               "KeyCoe": 1.0,
               "StartRegAddr": 5005,
               "EndRegAddr": 5006,
@@ -1356,7 +1356,7 @@
             {
               "No": 3,
               "KeyMode": null,
-              "KeyDec": "总视在功率",
+              "KeyDec": "逆变器4-总视在功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5008,
               "EndRegAddr": 5009,
@@ -1368,7 +1368,7 @@
             {
               "No": 4,
               "KeyMode": null,
-              "KeyDec": "MPPT1电压",
+              "KeyDec": "逆变器4-MPPT1电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5010,
               "EndRegAddr": 5010,
@@ -1380,7 +1380,7 @@
             {
               "No": 5,
               "KeyMode": null,
-              "KeyDec": "MPPT1电流",
+              "KeyDec": "逆变器4-MPPT1电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5011,
               "EndRegAddr": 5011,
@@ -1392,7 +1392,7 @@
             {
               "No": 6,
               "KeyMode": null,
-              "KeyDec": "MPPT2电压",
+              "KeyDec": "逆变器4-MPPT2电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5012,
               "EndRegAddr": 5012,
@@ -1404,7 +1404,7 @@
             {
               "No": 7,
               "KeyMode": null,
-              "KeyDec": "MPPT2电流",
+              "KeyDec": "逆变器4-MPPT2电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5013,
               "EndRegAddr": 5013,
@@ -1416,7 +1416,7 @@
             {
               "No": 8,
               "KeyMode": null,
-              "KeyDec": "MPPT3电压",
+              "KeyDec": "逆变器4-MPPT3电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5014,
               "EndRegAddr": 5014,
@@ -1428,7 +1428,7 @@
             {
               "No": 9,
               "KeyMode": null,
-              "KeyDec": "MPPT3电流",
+              "KeyDec": "逆变器4-MPPT3电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5015,
               "EndRegAddr": 5015,
@@ -1440,7 +1440,7 @@
             {
               "No": 10,
               "KeyMode": null,
-              "KeyDec": "总直流功率 ",
+              "KeyDec": "逆变器4-总直流功率 ",
               "KeyCoe": 0.001,
               "StartRegAddr": 5016,
               "EndRegAddr": 5017,
@@ -1452,7 +1452,7 @@
             {
               "No": 11,
               "KeyMode": null,
-              "KeyDec": "A相电压",
+              "KeyDec": "逆变器4-A相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5018,
               "EndRegAddr": 5018,
@@ -1464,7 +1464,7 @@
             {
               "No": 12,
               "KeyMode": null,
-              "KeyDec": "B相电压",
+              "KeyDec": "逆变器4-B相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5019,
               "EndRegAddr": 5019,
@@ -1476,7 +1476,7 @@
             {
               "No": 13,
               "KeyMode": null,
-              "KeyDec": "C相电压",
+              "KeyDec": "逆变器4-C相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5020,
               "EndRegAddr": 5020,
@@ -1488,7 +1488,7 @@
             {
               "No": 14,
               "KeyMode": null,
-              "KeyDec": "A相电流",
+              "KeyDec": "逆变器4-A相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5021,
               "EndRegAddr": 5021,
@@ -1500,7 +1500,7 @@
             {
               "No": 15,
               "KeyMode": null,
-              "KeyDec": "B相电流",
+              "KeyDec": "逆变器4-B相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5022,
               "EndRegAddr": 5022,
@@ -1512,7 +1512,7 @@
             {
               "No": 16,
               "KeyMode": null,
-              "KeyDec": "C相电流",
+              "KeyDec": "逆变器4-C相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5023,
               "EndRegAddr": 5023,
@@ -1525,18 +1525,18 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 18,
           "DataItemCount": 6,
           "SlaveDevAddr": 4,
+          "ModbusRegAddr": 5030,
           "GetRegCount": 8,
           "AreaNum": 1,
           "DataProperty": 1,
           "DataType": "ModbusDataType_MultiType",
+          "DataTypeEnum": 7,
           "LowAddr": 5030,
           "HighAddr": 5037,
           "DataFormat": 0,
-          "StoreRegStartAddr": 18,
-          "ModbusRegAddr": 5030,
-          "DataTypeEnum": 7,
           "KeyDec": null,
           "KeyMode": null,
           "KeyCoe": null,
@@ -1545,7 +1545,7 @@
             {
               "No": 0,
               "KeyMode": null,
-              "KeyDec": "总有功功率",
+              "KeyDec": "逆变器4-总有功功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5030,
               "EndRegAddr": 5031,
@@ -1557,7 +1557,7 @@
             {
               "No": 1,
               "KeyMode": null,
-              "KeyDec": "总无功功率",
+              "KeyDec": "逆变器4-总无功功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5032,
               "EndRegAddr": 5033,
@@ -1569,7 +1569,7 @@
             {
               "No": 2,
               "KeyMode": null,
-              "KeyDec": "总功率因数",
+              "KeyDec": "逆变器4-总功率因数",
               "KeyCoe": 0.001,
               "StartRegAddr": 5034,
               "EndRegAddr": 5034,
@@ -1581,7 +1581,7 @@
             {
               "No": 3,
               "KeyMode": null,
-              "KeyDec": "电网频率",
+              "KeyDec": "逆变器4-电网频率",
               "KeyCoe": 0.1,
               "StartRegAddr": 5035,
               "EndRegAddr": 5035,
@@ -1593,7 +1593,7 @@
             {
               "No": 4,
               "KeyMode": null,
-              "KeyDec": "逆变器效率",
+              "KeyDec": "逆变器4-逆变器效率",
               "KeyCoe": 0.01,
               "StartRegAddr": 5036,
               "EndRegAddr": 5036,
@@ -1605,7 +1605,7 @@
             {
               "No": 5,
               "KeyMode": null,
-              "KeyDec": "设备工作状态",
+              "KeyDec": "逆变器4-设备工作状态",
               "KeyCoe": 1.0,
               "StartRegAddr": 5037,
               "EndRegAddr": 5037,
@@ -1618,20 +1618,20 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 24,
           "DataItemCount": 1,
           "SlaveDevAddr": 4,
+          "ModbusRegAddr": 5070,
           "GetRegCount": 1,
           "AreaNum": 2,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5070,
           "HighAddr": 5070,
           "DataFormat": 0,
-          "StoreRegStartAddr": 24,
-          "ModbusRegAddr": 5070,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "方阵绝缘阻抗"
+            "逆变器4-方阵绝缘阻抗"
           ],
           "KeyMode": [
             ""
@@ -1644,20 +1644,20 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 25,
           "DataItemCount": 1,
           "SlaveDevAddr": 4,
+          "ModbusRegAddr": 5113,
           "GetRegCount": 1,
           "AreaNum": 3,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5113,
           "HighAddr": 5113,
           "DataFormat": 0,
-          "StoreRegStartAddr": 25,
-          "ModbusRegAddr": 5113,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "日并网运行时间分钟"
+            "逆变器4-日并网运行时间分钟"
           ],
           "KeyMode": [
             ""
@@ -1670,29 +1670,29 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 26,
           "DataItemCount": 10,
           "SlaveDevAddr": 4,
+          "ModbusRegAddr": 5114,
           "GetRegCount": 10,
           "AreaNum": 4,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5114,
           "HighAddr": 5123,
           "DataFormat": 0,
-          "StoreRegStartAddr": 26,
-          "ModbusRegAddr": 5114,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "MPPT4电压",
-            "MPPT4电流 ",
-            "MPPT5电压",
-            "MPPT5电流 ",
-            "MPPT6电压",
-            "MPPT6电流 ",
-            "MPPT7电压",
-            "MPPT7电流 ",
-            "MPPT8电压",
-            "MPPT8电流 "
+            "逆变器4-MPPT4电压",
+            "逆变器4-MPPT4电流",
+            "逆变器4-MPPT5电压",
+            "逆变器4-MPPT5电流",
+            "逆变器4-MPPT6电压",
+            "逆变器4-MPPT6电流",
+            "逆变器4-MPPT7电压",
+            "逆变器4-MPPT7电流",
+            "逆变器4-MPPT8电压",
+            "逆变器4-MPPT8电流"
           ],
           "KeyMode": [
             "",
@@ -1730,18 +1730,18 @@
       "data": [
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 1,
           "DataItemCount": 17,
           "SlaveDevAddr": 5,
+          "ModbusRegAddr": 5002,
           "GetRegCount": 22,
           "AreaNum": 0,
           "DataProperty": 1,
           "DataType": "ModbusDataType_MultiType",
+          "DataTypeEnum": 7,
           "LowAddr": 5002,
           "HighAddr": 5023,
           "DataFormat": 0,
-          "StoreRegStartAddr": 1,
-          "ModbusRegAddr": 5002,
-          "DataTypeEnum": 7,
           "KeyDec": null,
           "KeyMode": null,
           "KeyCoe": null,
@@ -1750,7 +1750,7 @@
             {
               "No": 0,
               "KeyMode": null,
-              "KeyDec": "日发电量",
+              "KeyDec": "逆变器5-日发电量",
               "KeyCoe": 0.1,
               "StartRegAddr": 5002,
               "EndRegAddr": 5002,
@@ -1762,7 +1762,7 @@
             {
               "No": 1,
               "KeyMode": null,
-              "KeyDec": "总发电量",
+              "KeyDec": "逆变器5-总发电量",
               "KeyCoe": 1.0,
               "StartRegAddr": 5003,
               "EndRegAddr": 5004,
@@ -1774,7 +1774,7 @@
             {
               "No": 2,
               "KeyMode": null,
-              "KeyDec": "总并网运行时间",
+              "KeyDec": "逆变器5-总并网运行时间",
               "KeyCoe": 1.0,
               "StartRegAddr": 5005,
               "EndRegAddr": 5006,
@@ -1786,7 +1786,7 @@
             {
               "No": 3,
               "KeyMode": null,
-              "KeyDec": "总视在功率",
+              "KeyDec": "逆变器5-总视在功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5008,
               "EndRegAddr": 5009,
@@ -1798,7 +1798,7 @@
             {
               "No": 4,
               "KeyMode": null,
-              "KeyDec": "MPPT1电压",
+              "KeyDec": "逆变器5-MPPT1电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5010,
               "EndRegAddr": 5010,
@@ -1810,7 +1810,7 @@
             {
               "No": 5,
               "KeyMode": null,
-              "KeyDec": "MPPT1电流",
+              "KeyDec": "逆变器5-MPPT1电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5011,
               "EndRegAddr": 5011,
@@ -1822,7 +1822,7 @@
             {
               "No": 6,
               "KeyMode": null,
-              "KeyDec": "MPPT2电压",
+              "KeyDec": "逆变器5-MPPT2电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5012,
               "EndRegAddr": 5012,
@@ -1834,7 +1834,7 @@
             {
               "No": 7,
               "KeyMode": null,
-              "KeyDec": "MPPT2电流",
+              "KeyDec": "逆变器5-MPPT2电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5013,
               "EndRegAddr": 5013,
@@ -1846,7 +1846,7 @@
             {
               "No": 8,
               "KeyMode": null,
-              "KeyDec": "MPPT3电压",
+              "KeyDec": "逆变器5-MPPT3电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5014,
               "EndRegAddr": 5014,
@@ -1858,7 +1858,7 @@
             {
               "No": 9,
               "KeyMode": null,
-              "KeyDec": "MPPT3电流",
+              "KeyDec": "逆变器5-MPPT3电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5015,
               "EndRegAddr": 5015,
@@ -1870,7 +1870,7 @@
             {
               "No": 10,
               "KeyMode": null,
-              "KeyDec": "总直流功率 ",
+              "KeyDec": "逆变器5-总直流功率 ",
               "KeyCoe": 0.001,
               "StartRegAddr": 5016,
               "EndRegAddr": 5017,
@@ -1882,7 +1882,7 @@
             {
               "No": 11,
               "KeyMode": null,
-              "KeyDec": "A相电压",
+              "KeyDec": "逆变器5-A相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5018,
               "EndRegAddr": 5018,
@@ -1894,7 +1894,7 @@
             {
               "No": 12,
               "KeyMode": null,
-              "KeyDec": "B相电压",
+              "KeyDec": "逆变器5-B相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5019,
               "EndRegAddr": 5019,
@@ -1906,7 +1906,7 @@
             {
               "No": 13,
               "KeyMode": null,
-              "KeyDec": "C相电压",
+              "KeyDec": "逆变器5-C相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5020,
               "EndRegAddr": 5020,
@@ -1918,7 +1918,7 @@
             {
               "No": 14,
               "KeyMode": null,
-              "KeyDec": "A相电流",
+              "KeyDec": "逆变器5-A相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5021,
               "EndRegAddr": 5021,
@@ -1930,7 +1930,7 @@
             {
               "No": 15,
               "KeyMode": null,
-              "KeyDec": "B相电流",
+              "KeyDec": "逆变器5-B相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5022,
               "EndRegAddr": 5022,
@@ -1942,7 +1942,7 @@
             {
               "No": 16,
               "KeyMode": null,
-              "KeyDec": "C相电流",
+              "KeyDec": "逆变器5-C相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5023,
               "EndRegAddr": 5023,
@@ -1955,18 +1955,18 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 18,
           "DataItemCount": 6,
           "SlaveDevAddr": 5,
+          "ModbusRegAddr": 5030,
           "GetRegCount": 8,
           "AreaNum": 1,
           "DataProperty": 1,
           "DataType": "ModbusDataType_MultiType",
+          "DataTypeEnum": 7,
           "LowAddr": 5030,
           "HighAddr": 5037,
           "DataFormat": 0,
-          "StoreRegStartAddr": 18,
-          "ModbusRegAddr": 5030,
-          "DataTypeEnum": 7,
           "KeyDec": null,
           "KeyMode": null,
           "KeyCoe": null,
@@ -1975,7 +1975,7 @@
             {
               "No": 0,
               "KeyMode": null,
-              "KeyDec": "总有功功率",
+              "KeyDec": "逆变器5-总有功功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5030,
               "EndRegAddr": 5031,
@@ -1987,7 +1987,7 @@
             {
               "No": 1,
               "KeyMode": null,
-              "KeyDec": "总无功功率",
+              "KeyDec": "逆变器5-总无功功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5032,
               "EndRegAddr": 5033,
@@ -1999,7 +1999,7 @@
             {
               "No": 2,
               "KeyMode": null,
-              "KeyDec": "总功率因数",
+              "KeyDec": "逆变器5-总功率因数",
               "KeyCoe": 0.001,
               "StartRegAddr": 5034,
               "EndRegAddr": 5034,
@@ -2011,7 +2011,7 @@
             {
               "No": 3,
               "KeyMode": null,
-              "KeyDec": "电网频率",
+              "KeyDec": "逆变器5-电网频率",
               "KeyCoe": 0.1,
               "StartRegAddr": 5035,
               "EndRegAddr": 5035,
@@ -2023,7 +2023,7 @@
             {
               "No": 4,
               "KeyMode": null,
-              "KeyDec": "逆变器效率",
+              "KeyDec": "逆变器5-逆变器效率",
               "KeyCoe": 0.01,
               "StartRegAddr": 5036,
               "EndRegAddr": 5036,
@@ -2035,7 +2035,7 @@
             {
               "No": 5,
               "KeyMode": null,
-              "KeyDec": "设备工作状态",
+              "KeyDec": "逆变器5-设备工作状态",
               "KeyCoe": 1.0,
               "StartRegAddr": 5037,
               "EndRegAddr": 5037,
@@ -2048,20 +2048,20 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 24,
           "DataItemCount": 1,
           "SlaveDevAddr": 5,
+          "ModbusRegAddr": 5070,
           "GetRegCount": 1,
           "AreaNum": 2,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5070,
           "HighAddr": 5070,
           "DataFormat": 0,
-          "StoreRegStartAddr": 24,
-          "ModbusRegAddr": 5070,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "方阵绝缘阻抗"
+            "逆变器5-方阵绝缘阻抗"
           ],
           "KeyMode": [
             ""
@@ -2074,20 +2074,20 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 25,
           "DataItemCount": 1,
           "SlaveDevAddr": 5,
+          "ModbusRegAddr": 5113,
           "GetRegCount": 1,
           "AreaNum": 3,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5113,
           "HighAddr": 5113,
           "DataFormat": 0,
-          "StoreRegStartAddr": 25,
-          "ModbusRegAddr": 5113,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "日并网运行时间分钟"
+            "逆变器5-日并网运行时间分钟"
           ],
           "KeyMode": [
             ""
@@ -2100,29 +2100,29 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 26,
           "DataItemCount": 10,
           "SlaveDevAddr": 5,
+          "ModbusRegAddr": 5114,
           "GetRegCount": 10,
           "AreaNum": 4,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5114,
           "HighAddr": 5123,
           "DataFormat": 0,
-          "StoreRegStartAddr": 26,
-          "ModbusRegAddr": 5114,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "MPPT4电压",
-            "MPPT4电流 ",
-            "MPPT5电压",
-            "MPPT5电流 ",
-            "MPPT6电压",
-            "MPPT6电流 ",
-            "MPPT7电压",
-            "MPPT7电流 ",
-            "MPPT8电压",
-            "MPPT8电流 "
+            "逆变器5-MPPT4电压",
+            "逆变器5-MPPT4电流",
+            "逆变器5-MPPT5电压",
+            "逆变器5-MPPT5电流",
+            "逆变器5-MPPT6电压",
+            "逆变器5-MPPT6电流",
+            "逆变器5-MPPT7电压",
+            "逆变器5-MPPT7电流",
+            "逆变器5-MPPT8电压",
+            "逆变器5-MPPT8电流"
           ],
           "KeyMode": [
             "",
@@ -2160,18 +2160,18 @@
       "data": [
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 1,
           "DataItemCount": 17,
           "SlaveDevAddr": 6,
+          "ModbusRegAddr": 5002,
           "GetRegCount": 22,
           "AreaNum": 0,
           "DataProperty": 1,
           "DataType": "ModbusDataType_MultiType",
+          "DataTypeEnum": 7,
           "LowAddr": 5002,
           "HighAddr": 5023,
           "DataFormat": 0,
-          "StoreRegStartAddr": 1,
-          "ModbusRegAddr": 5002,
-          "DataTypeEnum": 7,
           "KeyDec": null,
           "KeyMode": null,
           "KeyCoe": null,
@@ -2180,7 +2180,7 @@
             {
               "No": 0,
               "KeyMode": null,
-              "KeyDec": "日发电量",
+              "KeyDec": "逆变器6-日发电量",
               "KeyCoe": 0.1,
               "StartRegAddr": 5002,
               "EndRegAddr": 5002,
@@ -2192,7 +2192,7 @@
             {
               "No": 1,
               "KeyMode": null,
-              "KeyDec": "总发电量",
+              "KeyDec": "逆变器6-总发电量",
               "KeyCoe": 1.0,
               "StartRegAddr": 5003,
               "EndRegAddr": 5004,
@@ -2204,7 +2204,7 @@
             {
               "No": 2,
               "KeyMode": null,
-              "KeyDec": "总并网运行时间",
+              "KeyDec": "逆变器6-总并网运行时间",
               "KeyCoe": 1.0,
               "StartRegAddr": 5005,
               "EndRegAddr": 5006,
@@ -2216,7 +2216,7 @@
             {
               "No": 3,
               "KeyMode": null,
-              "KeyDec": "总视在功率",
+              "KeyDec": "逆变器6-总视在功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5008,
               "EndRegAddr": 5009,
@@ -2228,7 +2228,7 @@
             {
               "No": 4,
               "KeyMode": null,
-              "KeyDec": "MPPT1电压",
+              "KeyDec": "逆变器6-MPPT1电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5010,
               "EndRegAddr": 5010,
@@ -2240,7 +2240,7 @@
             {
               "No": 5,
               "KeyMode": null,
-              "KeyDec": "MPPT1电流",
+              "KeyDec": "逆变器6-MPPT1电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5011,
               "EndRegAddr": 5011,
@@ -2252,7 +2252,7 @@
             {
               "No": 6,
               "KeyMode": null,
-              "KeyDec": "MPPT2电压",
+              "KeyDec": "逆变器6-MPPT2电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5012,
               "EndRegAddr": 5012,
@@ -2264,7 +2264,7 @@
             {
               "No": 7,
               "KeyMode": null,
-              "KeyDec": "MPPT2电流",
+              "KeyDec": "逆变器6-MPPT2电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5013,
               "EndRegAddr": 5013,
@@ -2276,7 +2276,7 @@
             {
               "No": 8,
               "KeyMode": null,
-              "KeyDec": "MPPT3电压",
+              "KeyDec": "逆变器6-MPPT3电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5014,
               "EndRegAddr": 5014,
@@ -2288,7 +2288,7 @@
             {
               "No": 9,
               "KeyMode": null,
-              "KeyDec": "MPPT3电流",
+              "KeyDec": "逆变器6-MPPT3电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5015,
               "EndRegAddr": 5015,
@@ -2300,7 +2300,7 @@
             {
               "No": 10,
               "KeyMode": null,
-              "KeyDec": "总直流功率 ",
+              "KeyDec": "逆变器6-总直流功率 ",
               "KeyCoe": 0.001,
               "StartRegAddr": 5016,
               "EndRegAddr": 5017,
@@ -2312,7 +2312,7 @@
             {
               "No": 11,
               "KeyMode": null,
-              "KeyDec": "A相电压",
+              "KeyDec": "逆变器6-A相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5018,
               "EndRegAddr": 5018,
@@ -2324,7 +2324,7 @@
             {
               "No": 12,
               "KeyMode": null,
-              "KeyDec": "B相电压",
+              "KeyDec": "逆变器6-B相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5019,
               "EndRegAddr": 5019,
@@ -2336,7 +2336,7 @@
             {
               "No": 13,
               "KeyMode": null,
-              "KeyDec": "C相电压",
+              "KeyDec": "逆变器6-C相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5020,
               "EndRegAddr": 5020,
@@ -2348,7 +2348,7 @@
             {
               "No": 14,
               "KeyMode": null,
-              "KeyDec": "A相电流",
+              "KeyDec": "逆变器6-A相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5021,
               "EndRegAddr": 5021,
@@ -2360,7 +2360,7 @@
             {
               "No": 15,
               "KeyMode": null,
-              "KeyDec": "B相电流",
+              "KeyDec": "逆变器6-B相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5022,
               "EndRegAddr": 5022,
@@ -2372,7 +2372,7 @@
             {
               "No": 16,
               "KeyMode": null,
-              "KeyDec": "C相电流",
+              "KeyDec": "逆变器6-C相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5023,
               "EndRegAddr": 5023,
@@ -2385,18 +2385,18 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 18,
           "DataItemCount": 6,
           "SlaveDevAddr": 6,
+          "ModbusRegAddr": 5030,
           "GetRegCount": 8,
           "AreaNum": 1,
           "DataProperty": 1,
           "DataType": "ModbusDataType_MultiType",
+          "DataTypeEnum": 7,
           "LowAddr": 5030,
           "HighAddr": 5037,
           "DataFormat": 0,
-          "StoreRegStartAddr": 18,
-          "ModbusRegAddr": 5030,
-          "DataTypeEnum": 7,
           "KeyDec": null,
           "KeyMode": null,
           "KeyCoe": null,
@@ -2405,7 +2405,7 @@
             {
               "No": 0,
               "KeyMode": null,
-              "KeyDec": "总有功功率",
+              "KeyDec": "逆变器6-总有功功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5030,
               "EndRegAddr": 5031,
@@ -2417,7 +2417,7 @@
             {
               "No": 1,
               "KeyMode": null,
-              "KeyDec": "总无功功率",
+              "KeyDec": "逆变器6-总无功功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5032,
               "EndRegAddr": 5033,
@@ -2429,7 +2429,7 @@
             {
               "No": 2,
               "KeyMode": null,
-              "KeyDec": "总功率因数",
+              "KeyDec": "逆变器6-总功率因数",
               "KeyCoe": 0.001,
               "StartRegAddr": 5034,
               "EndRegAddr": 5034,
@@ -2441,7 +2441,7 @@
             {
               "No": 3,
               "KeyMode": null,
-              "KeyDec": "电网频率",
+              "KeyDec": "逆变器6-电网频率",
               "KeyCoe": 0.1,
               "StartRegAddr": 5035,
               "EndRegAddr": 5035,
@@ -2453,7 +2453,7 @@
             {
               "No": 4,
               "KeyMode": null,
-              "KeyDec": "逆变器效率",
+              "KeyDec": "逆变器6-逆变器效率",
               "KeyCoe": 0.01,
               "StartRegAddr": 5036,
               "EndRegAddr": 5036,
@@ -2465,7 +2465,7 @@
             {
               "No": 5,
               "KeyMode": null,
-              "KeyDec": "设备工作状态",
+              "KeyDec": "逆变器6-设备工作状态",
               "KeyCoe": 1.0,
               "StartRegAddr": 5037,
               "EndRegAddr": 5037,
@@ -2478,20 +2478,20 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 24,
           "DataItemCount": 1,
           "SlaveDevAddr": 6,
+          "ModbusRegAddr": 5070,
           "GetRegCount": 1,
           "AreaNum": 2,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5070,
           "HighAddr": 5070,
           "DataFormat": 0,
-          "StoreRegStartAddr": 24,
-          "ModbusRegAddr": 5070,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "方阵绝缘阻抗"
+            "逆变器6-方阵绝缘阻抗"
           ],
           "KeyMode": [
             ""
@@ -2504,20 +2504,20 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 25,
           "DataItemCount": 1,
           "SlaveDevAddr": 6,
+          "ModbusRegAddr": 5113,
           "GetRegCount": 1,
           "AreaNum": 3,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5113,
           "HighAddr": 5113,
           "DataFormat": 0,
-          "StoreRegStartAddr": 25,
-          "ModbusRegAddr": 5113,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "日并网运行时间分钟"
+            "逆变器6-日并网运行时间分钟"
           ],
           "KeyMode": [
             ""
@@ -2530,29 +2530,29 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 26,
           "DataItemCount": 10,
           "SlaveDevAddr": 6,
+          "ModbusRegAddr": 5114,
           "GetRegCount": 10,
           "AreaNum": 4,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5114,
           "HighAddr": 5123,
           "DataFormat": 0,
-          "StoreRegStartAddr": 26,
-          "ModbusRegAddr": 5114,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "MPPT4电压",
-            "MPPT4电流 ",
-            "MPPT5电压",
-            "MPPT5电流 ",
-            "MPPT6电压",
-            "MPPT6电流 ",
-            "MPPT7电压",
-            "MPPT7电流 ",
-            "MPPT8电压",
-            "MPPT8电流 "
+            "逆变器6-MPPT4电压",
+            "逆变器6-MPPT4电流",
+            "逆变器6-MPPT5电压",
+            "逆变器6-MPPT5电流",
+            "逆变器6-MPPT6电压",
+            "逆变器6-MPPT6电流",
+            "逆变器6-MPPT7电压",
+            "逆变器6-MPPT7电流",
+            "逆变器6-MPPT8电压",
+            "逆变器6-MPPT8电流"
           ],
           "KeyMode": [
             "",
@@ -2590,18 +2590,18 @@
       "data": [
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 1,
           "DataItemCount": 17,
           "SlaveDevAddr": 7,
+          "ModbusRegAddr": 5002,
           "GetRegCount": 22,
           "AreaNum": 0,
           "DataProperty": 1,
           "DataType": "ModbusDataType_MultiType",
+          "DataTypeEnum": 7,
           "LowAddr": 5002,
           "HighAddr": 5023,
           "DataFormat": 0,
-          "StoreRegStartAddr": 1,
-          "ModbusRegAddr": 5002,
-          "DataTypeEnum": 7,
           "KeyDec": null,
           "KeyMode": null,
           "KeyCoe": null,
@@ -2610,7 +2610,7 @@
             {
               "No": 0,
               "KeyMode": null,
-              "KeyDec": "日发电量",
+              "KeyDec": "逆变器7-日发电量",
               "KeyCoe": 0.1,
               "StartRegAddr": 5002,
               "EndRegAddr": 5002,
@@ -2622,7 +2622,7 @@
             {
               "No": 1,
               "KeyMode": null,
-              "KeyDec": "总发电量",
+              "KeyDec": "逆变器7-总发电量",
               "KeyCoe": 1.0,
               "StartRegAddr": 5003,
               "EndRegAddr": 5004,
@@ -2634,7 +2634,7 @@
             {
               "No": 2,
               "KeyMode": null,
-              "KeyDec": "总并网运行时间",
+              "KeyDec": "逆变器7-总并网运行时间",
               "KeyCoe": 1.0,
               "StartRegAddr": 5005,
               "EndRegAddr": 5006,
@@ -2646,7 +2646,7 @@
             {
               "No": 3,
               "KeyMode": null,
-              "KeyDec": "总视在功率",
+              "KeyDec": "逆变器7-总视在功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5008,
               "EndRegAddr": 5009,
@@ -2658,7 +2658,7 @@
             {
               "No": 4,
               "KeyMode": null,
-              "KeyDec": "MPPT1电压",
+              "KeyDec": "逆变器7-MPPT1电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5010,
               "EndRegAddr": 5010,
@@ -2670,7 +2670,7 @@
             {
               "No": 5,
               "KeyMode": null,
-              "KeyDec": "MPPT1电流",
+              "KeyDec": "逆变器7-MPPT1电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5011,
               "EndRegAddr": 5011,
@@ -2682,7 +2682,7 @@
             {
               "No": 6,
               "KeyMode": null,
-              "KeyDec": "MPPT2电压",
+              "KeyDec": "逆变器7-MPPT2电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5012,
               "EndRegAddr": 5012,
@@ -2694,7 +2694,7 @@
             {
               "No": 7,
               "KeyMode": null,
-              "KeyDec": "MPPT2电流",
+              "KeyDec": "逆变器7-MPPT2电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5013,
               "EndRegAddr": 5013,
@@ -2706,7 +2706,7 @@
             {
               "No": 8,
               "KeyMode": null,
-              "KeyDec": "MPPT3电压",
+              "KeyDec": "逆变器7-MPPT3电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5014,
               "EndRegAddr": 5014,
@@ -2718,7 +2718,7 @@
             {
               "No": 9,
               "KeyMode": null,
-              "KeyDec": "MPPT3电流",
+              "KeyDec": "逆变器7-MPPT3电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5015,
               "EndRegAddr": 5015,
@@ -2730,7 +2730,7 @@
             {
               "No": 10,
               "KeyMode": null,
-              "KeyDec": "总直流功率 ",
+              "KeyDec": "逆变器7-总直流功率 ",
               "KeyCoe": 0.001,
               "StartRegAddr": 5016,
               "EndRegAddr": 5017,
@@ -2742,7 +2742,7 @@
             {
               "No": 11,
               "KeyMode": null,
-              "KeyDec": "A相电压",
+              "KeyDec": "逆变器7-A相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5018,
               "EndRegAddr": 5018,
@@ -2754,7 +2754,7 @@
             {
               "No": 12,
               "KeyMode": null,
-              "KeyDec": "B相电压",
+              "KeyDec": "逆变器7-B相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5019,
               "EndRegAddr": 5019,
@@ -2766,7 +2766,7 @@
             {
               "No": 13,
               "KeyMode": null,
-              "KeyDec": "C相电压",
+              "KeyDec": "逆变器7-C相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5020,
               "EndRegAddr": 5020,
@@ -2778,7 +2778,7 @@
             {
               "No": 14,
               "KeyMode": null,
-              "KeyDec": "A相电流",
+              "KeyDec": "逆变器7-A相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5021,
               "EndRegAddr": 5021,
@@ -2790,7 +2790,7 @@
             {
               "No": 15,
               "KeyMode": null,
-              "KeyDec": "B相电流",
+              "KeyDec": "逆变器7-B相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5022,
               "EndRegAddr": 5022,
@@ -2802,7 +2802,7 @@
             {
               "No": 16,
               "KeyMode": null,
-              "KeyDec": "C相电流",
+              "KeyDec": "逆变器7-C相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5023,
               "EndRegAddr": 5023,
@@ -2815,18 +2815,18 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 18,
           "DataItemCount": 6,
           "SlaveDevAddr": 7,
+          "ModbusRegAddr": 5030,
           "GetRegCount": 8,
           "AreaNum": 1,
           "DataProperty": 1,
           "DataType": "ModbusDataType_MultiType",
+          "DataTypeEnum": 7,
           "LowAddr": 5030,
           "HighAddr": 5037,
           "DataFormat": 0,
-          "StoreRegStartAddr": 18,
-          "ModbusRegAddr": 5030,
-          "DataTypeEnum": 7,
           "KeyDec": null,
           "KeyMode": null,
           "KeyCoe": null,
@@ -2835,7 +2835,7 @@
             {
               "No": 0,
               "KeyMode": null,
-              "KeyDec": "总有功功率",
+              "KeyDec": "逆变器7-总有功功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5030,
               "EndRegAddr": 5031,
@@ -2847,7 +2847,7 @@
             {
               "No": 1,
               "KeyMode": null,
-              "KeyDec": "总无功功率",
+              "KeyDec": "逆变器7-总无功功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5032,
               "EndRegAddr": 5033,
@@ -2859,7 +2859,7 @@
             {
               "No": 2,
               "KeyMode": null,
-              "KeyDec": "总功率因数",
+              "KeyDec": "逆变器7-总功率因数",
               "KeyCoe": 0.001,
               "StartRegAddr": 5034,
               "EndRegAddr": 5034,
@@ -2871,7 +2871,7 @@
             {
               "No": 3,
               "KeyMode": null,
-              "KeyDec": "电网频率",
+              "KeyDec": "逆变器7-电网频率",
               "KeyCoe": 0.1,
               "StartRegAddr": 5035,
               "EndRegAddr": 5035,
@@ -2883,7 +2883,7 @@
             {
               "No": 4,
               "KeyMode": null,
-              "KeyDec": "逆变器效率",
+              "KeyDec": "逆变器7-逆变器效率",
               "KeyCoe": 0.01,
               "StartRegAddr": 5036,
               "EndRegAddr": 5036,
@@ -2895,7 +2895,7 @@
             {
               "No": 5,
               "KeyMode": null,
-              "KeyDec": "设备工作状态",
+              "KeyDec": "逆变器7-设备工作状态",
               "KeyCoe": 1.0,
               "StartRegAddr": 5037,
               "EndRegAddr": 5037,
@@ -2908,20 +2908,20 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 24,
           "DataItemCount": 1,
           "SlaveDevAddr": 7,
+          "ModbusRegAddr": 5070,
           "GetRegCount": 1,
           "AreaNum": 2,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5070,
           "HighAddr": 5070,
           "DataFormat": 0,
-          "StoreRegStartAddr": 24,
-          "ModbusRegAddr": 5070,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "方阵绝缘阻抗"
+            "逆变器7-方阵绝缘阻抗"
           ],
           "KeyMode": [
             ""
@@ -2934,20 +2934,20 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 25,
           "DataItemCount": 1,
           "SlaveDevAddr": 7,
+          "ModbusRegAddr": 5113,
           "GetRegCount": 1,
           "AreaNum": 3,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5113,
           "HighAddr": 5113,
           "DataFormat": 0,
-          "StoreRegStartAddr": 25,
-          "ModbusRegAddr": 5113,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "日并网运行时间分钟"
+            "逆变器7-日并网运行时间分钟"
           ],
           "KeyMode": [
             ""
@@ -2960,29 +2960,29 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 26,
           "DataItemCount": 10,
           "SlaveDevAddr": 7,
+          "ModbusRegAddr": 5114,
           "GetRegCount": 10,
           "AreaNum": 4,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5114,
           "HighAddr": 5123,
           "DataFormat": 0,
-          "StoreRegStartAddr": 26,
-          "ModbusRegAddr": 5114,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "MPPT4电压",
-            "MPPT4电流 ",
-            "MPPT5电压",
-            "MPPT5电流 ",
-            "MPPT6电压",
-            "MPPT6电流 ",
-            "MPPT7电压",
-            "MPPT7电流 ",
-            "MPPT8电压",
-            "MPPT8电流 "
+            "逆变器7-MPPT4电压",
+            "逆变器7-MPPT4电流",
+            "逆变器7-MPPT5电压",
+            "逆变器7-MPPT5电流",
+            "逆变器7-MPPT6电压",
+            "逆变器7-MPPT6电流",
+            "逆变器7-MPPT7电压",
+            "逆变器7-MPPT7电流",
+            "逆变器7-MPPT8电压",
+            "逆变器7-MPPT8电流"
           ],
           "KeyMode": [
             "",
@@ -3020,18 +3020,18 @@
       "data": [
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 1,
           "DataItemCount": 17,
           "SlaveDevAddr": 8,
+          "ModbusRegAddr": 5002,
           "GetRegCount": 22,
           "AreaNum": 0,
           "DataProperty": 1,
           "DataType": "ModbusDataType_MultiType",
+          "DataTypeEnum": 7,
           "LowAddr": 5002,
           "HighAddr": 5023,
           "DataFormat": 0,
-          "StoreRegStartAddr": 1,
-          "ModbusRegAddr": 5002,
-          "DataTypeEnum": 7,
           "KeyDec": null,
           "KeyMode": null,
           "KeyCoe": null,
@@ -3040,7 +3040,7 @@
             {
               "No": 0,
               "KeyMode": null,
-              "KeyDec": "日发电量",
+              "KeyDec": "逆变器8-日发电量",
               "KeyCoe": 0.1,
               "StartRegAddr": 5002,
               "EndRegAddr": 5002,
@@ -3052,7 +3052,7 @@
             {
               "No": 1,
               "KeyMode": null,
-              "KeyDec": "总发电量",
+              "KeyDec": "逆变器8-总发电量",
               "KeyCoe": 1.0,
               "StartRegAddr": 5003,
               "EndRegAddr": 5004,
@@ -3064,7 +3064,7 @@
             {
               "No": 2,
               "KeyMode": null,
-              "KeyDec": "总并网运行时间",
+              "KeyDec": "逆变器8-总并网运行时间",
               "KeyCoe": 1.0,
               "StartRegAddr": 5005,
               "EndRegAddr": 5006,
@@ -3076,7 +3076,7 @@
             {
               "No": 3,
               "KeyMode": null,
-              "KeyDec": "总视在功率",
+              "KeyDec": "逆变器8-总视在功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5008,
               "EndRegAddr": 5009,
@@ -3088,7 +3088,7 @@
             {
               "No": 4,
               "KeyMode": null,
-              "KeyDec": "MPPT1电压",
+              "KeyDec": "逆变器8-MPPT1电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5010,
               "EndRegAddr": 5010,
@@ -3100,7 +3100,7 @@
             {
               "No": 5,
               "KeyMode": null,
-              "KeyDec": "MPPT1电流",
+              "KeyDec": "逆变器8-MPPT1电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5011,
               "EndRegAddr": 5011,
@@ -3112,7 +3112,7 @@
             {
               "No": 6,
               "KeyMode": null,
-              "KeyDec": "MPPT2电压",
+              "KeyDec": "逆变器8-MPPT2电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5012,
               "EndRegAddr": 5012,
@@ -3124,7 +3124,7 @@
             {
               "No": 7,
               "KeyMode": null,
-              "KeyDec": "MPPT2电流",
+              "KeyDec": "逆变器8-MPPT2电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5013,
               "EndRegAddr": 5013,
@@ -3136,7 +3136,7 @@
             {
               "No": 8,
               "KeyMode": null,
-              "KeyDec": "MPPT3电压",
+              "KeyDec": "逆变器8-MPPT3电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5014,
               "EndRegAddr": 5014,
@@ -3148,7 +3148,7 @@
             {
               "No": 9,
               "KeyMode": null,
-              "KeyDec": "MPPT3电流",
+              "KeyDec": "逆变器8-MPPT3电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5015,
               "EndRegAddr": 5015,
@@ -3160,7 +3160,7 @@
             {
               "No": 10,
               "KeyMode": null,
-              "KeyDec": "总直流功率 ",
+              "KeyDec": "逆变器8-总直流功率 ",
               "KeyCoe": 0.001,
               "StartRegAddr": 5016,
               "EndRegAddr": 5017,
@@ -3172,7 +3172,7 @@
             {
               "No": 11,
               "KeyMode": null,
-              "KeyDec": "A相电压",
+              "KeyDec": "逆变器8-A相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5018,
               "EndRegAddr": 5018,
@@ -3184,7 +3184,7 @@
             {
               "No": 12,
               "KeyMode": null,
-              "KeyDec": "B相电压",
+              "KeyDec": "逆变器8-B相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5019,
               "EndRegAddr": 5019,
@@ -3196,7 +3196,7 @@
             {
               "No": 13,
               "KeyMode": null,
-              "KeyDec": "C相电压",
+              "KeyDec": "逆变器8-C相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5020,
               "EndRegAddr": 5020,
@@ -3208,7 +3208,7 @@
             {
               "No": 14,
               "KeyMode": null,
-              "KeyDec": "A相电流",
+              "KeyDec": "逆变器8-A相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5021,
               "EndRegAddr": 5021,
@@ -3220,7 +3220,7 @@
             {
               "No": 15,
               "KeyMode": null,
-              "KeyDec": "B相电流",
+              "KeyDec": "逆变器8-B相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5022,
               "EndRegAddr": 5022,
@@ -3232,7 +3232,7 @@
             {
               "No": 16,
               "KeyMode": null,
-              "KeyDec": "C相电流",
+              "KeyDec": "逆变器8-C相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5023,
               "EndRegAddr": 5023,
@@ -3245,18 +3245,18 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 18,
           "DataItemCount": 6,
           "SlaveDevAddr": 8,
+          "ModbusRegAddr": 5030,
           "GetRegCount": 8,
           "AreaNum": 1,
           "DataProperty": 1,
           "DataType": "ModbusDataType_MultiType",
+          "DataTypeEnum": 7,
           "LowAddr": 5030,
           "HighAddr": 5037,
           "DataFormat": 0,
-          "StoreRegStartAddr": 18,
-          "ModbusRegAddr": 5030,
-          "DataTypeEnum": 7,
           "KeyDec": null,
           "KeyMode": null,
           "KeyCoe": null,
@@ -3265,7 +3265,7 @@
             {
               "No": 0,
               "KeyMode": null,
-              "KeyDec": "总有功功率",
+              "KeyDec": "逆变器8-总有功功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5030,
               "EndRegAddr": 5031,
@@ -3277,7 +3277,7 @@
             {
               "No": 1,
               "KeyMode": null,
-              "KeyDec": "总无功功率",
+              "KeyDec": "逆变器8-总无功功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5032,
               "EndRegAddr": 5033,
@@ -3289,7 +3289,7 @@
             {
               "No": 2,
               "KeyMode": null,
-              "KeyDec": "总功率因数",
+              "KeyDec": "逆变器8-总功率因数",
               "KeyCoe": 0.001,
               "StartRegAddr": 5034,
               "EndRegAddr": 5034,
@@ -3301,7 +3301,7 @@
             {
               "No": 3,
               "KeyMode": null,
-              "KeyDec": "电网频率",
+              "KeyDec": "逆变器8-电网频率",
               "KeyCoe": 0.1,
               "StartRegAddr": 5035,
               "EndRegAddr": 5035,
@@ -3313,7 +3313,7 @@
             {
               "No": 4,
               "KeyMode": null,
-              "KeyDec": "逆变器效率",
+              "KeyDec": "逆变器8-逆变器效率",
               "KeyCoe": 0.01,
               "StartRegAddr": 5036,
               "EndRegAddr": 5036,
@@ -3325,7 +3325,7 @@
             {
               "No": 5,
               "KeyMode": null,
-              "KeyDec": "设备工作状态",
+              "KeyDec": "逆变器8-设备工作状态",
               "KeyCoe": 1.0,
               "StartRegAddr": 5037,
               "EndRegAddr": 5037,
@@ -3338,20 +3338,20 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 24,
           "DataItemCount": 1,
           "SlaveDevAddr": 8,
+          "ModbusRegAddr": 5070,
           "GetRegCount": 1,
           "AreaNum": 2,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5070,
           "HighAddr": 5070,
           "DataFormat": 0,
-          "StoreRegStartAddr": 24,
-          "ModbusRegAddr": 5070,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "方阵绝缘阻抗"
+            "逆变器8-方阵绝缘阻抗"
           ],
           "KeyMode": [
             ""
@@ -3364,20 +3364,20 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 25,
           "DataItemCount": 1,
           "SlaveDevAddr": 8,
+          "ModbusRegAddr": 5113,
           "GetRegCount": 1,
           "AreaNum": 3,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5113,
           "HighAddr": 5113,
           "DataFormat": 0,
-          "StoreRegStartAddr": 25,
-          "ModbusRegAddr": 5113,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "日并网运行时间分钟"
+            "逆变器8-日并网运行时间分钟"
           ],
           "KeyMode": [
             ""
@@ -3390,29 +3390,29 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 26,
           "DataItemCount": 10,
           "SlaveDevAddr": 8,
+          "ModbusRegAddr": 5114,
           "GetRegCount": 10,
           "AreaNum": 4,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5114,
           "HighAddr": 5123,
           "DataFormat": 0,
-          "StoreRegStartAddr": 26,
-          "ModbusRegAddr": 5114,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "MPPT4电压",
-            "MPPT4电流 ",
-            "MPPT5电压",
-            "MPPT5电流 ",
-            "MPPT6电压",
-            "MPPT6电流 ",
-            "MPPT7电压",
-            "MPPT7电流 ",
-            "MPPT8电压",
-            "MPPT8电流 "
+            "逆变器8-MPPT4电压",
+            "逆变器8-MPPT4电流",
+            "逆变器8-MPPT5电压",
+            "逆变器8-MPPT5电流",
+            "逆变器8-MPPT6电压",
+            "逆变器8-MPPT6电流",
+            "逆变器8-MPPT7电压",
+            "逆变器8-MPPT7电流",
+            "逆变器8-MPPT8电压",
+            "逆变器8-MPPT8电流"
           ],
           "KeyMode": [
             "",
@@ -3450,18 +3450,18 @@
       "data": [
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 1,
           "DataItemCount": 17,
           "SlaveDevAddr": 9,
+          "ModbusRegAddr": 5002,
           "GetRegCount": 22,
           "AreaNum": 0,
           "DataProperty": 1,
           "DataType": "ModbusDataType_MultiType",
+          "DataTypeEnum": 7,
           "LowAddr": 5002,
           "HighAddr": 5023,
           "DataFormat": 0,
-          "StoreRegStartAddr": 1,
-          "ModbusRegAddr": 5002,
-          "DataTypeEnum": 7,
           "KeyDec": null,
           "KeyMode": null,
           "KeyCoe": null,
@@ -3470,7 +3470,7 @@
             {
               "No": 0,
               "KeyMode": null,
-              "KeyDec": "日发电量",
+              "KeyDec": "逆变器9-日发电量",
               "KeyCoe": 0.1,
               "StartRegAddr": 5002,
               "EndRegAddr": 5002,
@@ -3482,7 +3482,7 @@
             {
               "No": 1,
               "KeyMode": null,
-              "KeyDec": "总发电量",
+              "KeyDec": "逆变器9-总发电量",
               "KeyCoe": 1.0,
               "StartRegAddr": 5003,
               "EndRegAddr": 5004,
@@ -3494,7 +3494,7 @@
             {
               "No": 2,
               "KeyMode": null,
-              "KeyDec": "总并网运行时间",
+              "KeyDec": "逆变器9-总并网运行时间",
               "KeyCoe": 1.0,
               "StartRegAddr": 5005,
               "EndRegAddr": 5006,
@@ -3506,7 +3506,7 @@
             {
               "No": 3,
               "KeyMode": null,
-              "KeyDec": "总视在功率",
+              "KeyDec": "逆变器9-总视在功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5008,
               "EndRegAddr": 5009,
@@ -3518,7 +3518,7 @@
             {
               "No": 4,
               "KeyMode": null,
-              "KeyDec": "MPPT1电压",
+              "KeyDec": "逆变器9-MPPT1电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5010,
               "EndRegAddr": 5010,
@@ -3530,7 +3530,7 @@
             {
               "No": 5,
               "KeyMode": null,
-              "KeyDec": "MPPT1电流",
+              "KeyDec": "逆变器9-MPPT1电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5011,
               "EndRegAddr": 5011,
@@ -3542,7 +3542,7 @@
             {
               "No": 6,
               "KeyMode": null,
-              "KeyDec": "MPPT2电压",
+              "KeyDec": "逆变器9-MPPT2电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5012,
               "EndRegAddr": 5012,
@@ -3554,7 +3554,7 @@
             {
               "No": 7,
               "KeyMode": null,
-              "KeyDec": "MPPT2电流",
+              "KeyDec": "逆变器9-MPPT2电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5013,
               "EndRegAddr": 5013,
@@ -3566,7 +3566,7 @@
             {
               "No": 8,
               "KeyMode": null,
-              "KeyDec": "MPPT3电压",
+              "KeyDec": "逆变器9-MPPT3电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5014,
               "EndRegAddr": 5014,
@@ -3578,7 +3578,7 @@
             {
               "No": 9,
               "KeyMode": null,
-              "KeyDec": "MPPT3电流",
+              "KeyDec": "逆变器9-MPPT3电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5015,
               "EndRegAddr": 5015,
@@ -3590,7 +3590,7 @@
             {
               "No": 10,
               "KeyMode": null,
-              "KeyDec": "总直流功率 ",
+              "KeyDec": "逆变器9-总直流功率 ",
               "KeyCoe": 0.001,
               "StartRegAddr": 5016,
               "EndRegAddr": 5017,
@@ -3602,7 +3602,7 @@
             {
               "No": 11,
               "KeyMode": null,
-              "KeyDec": "A相电压",
+              "KeyDec": "逆变器9-A相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5018,
               "EndRegAddr": 5018,
@@ -3614,7 +3614,7 @@
             {
               "No": 12,
               "KeyMode": null,
-              "KeyDec": "B相电压",
+              "KeyDec": "逆变器9-B相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5019,
               "EndRegAddr": 5019,
@@ -3626,7 +3626,7 @@
             {
               "No": 13,
               "KeyMode": null,
-              "KeyDec": "C相电压",
+              "KeyDec": "逆变器9-C相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5020,
               "EndRegAddr": 5020,
@@ -3638,7 +3638,7 @@
             {
               "No": 14,
               "KeyMode": null,
-              "KeyDec": "A相电流",
+              "KeyDec": "逆变器9-A相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5021,
               "EndRegAddr": 5021,
@@ -3650,7 +3650,7 @@
             {
               "No": 15,
               "KeyMode": null,
-              "KeyDec": "B相电流",
+              "KeyDec": "逆变器9-B相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5022,
               "EndRegAddr": 5022,
@@ -3662,7 +3662,7 @@
             {
               "No": 16,
               "KeyMode": null,
-              "KeyDec": "C相电流",
+              "KeyDec": "逆变器9-C相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5023,
               "EndRegAddr": 5023,
@@ -3675,18 +3675,18 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 18,
           "DataItemCount": 6,
           "SlaveDevAddr": 9,
+          "ModbusRegAddr": 5030,
           "GetRegCount": 8,
           "AreaNum": 1,
           "DataProperty": 1,
           "DataType": "ModbusDataType_MultiType",
+          "DataTypeEnum": 7,
           "LowAddr": 5030,
           "HighAddr": 5037,
           "DataFormat": 0,
-          "StoreRegStartAddr": 18,
-          "ModbusRegAddr": 5030,
-          "DataTypeEnum": 7,
           "KeyDec": null,
           "KeyMode": null,
           "KeyCoe": null,
@@ -3695,7 +3695,7 @@
             {
               "No": 0,
               "KeyMode": null,
-              "KeyDec": "总有功功率",
+              "KeyDec": "逆变器9-总有功功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5030,
               "EndRegAddr": 5031,
@@ -3707,7 +3707,7 @@
             {
               "No": 1,
               "KeyMode": null,
-              "KeyDec": "总无功功率",
+              "KeyDec": "逆变器9-总无功功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5032,
               "EndRegAddr": 5033,
@@ -3719,7 +3719,7 @@
             {
               "No": 2,
               "KeyMode": null,
-              "KeyDec": "总功率因数",
+              "KeyDec": "逆变器9-总功率因数",
               "KeyCoe": 0.001,
               "StartRegAddr": 5034,
               "EndRegAddr": 5034,
@@ -3731,7 +3731,7 @@
             {
               "No": 3,
               "KeyMode": null,
-              "KeyDec": "电网频率",
+              "KeyDec": "逆变器9-电网频率",
               "KeyCoe": 0.1,
               "StartRegAddr": 5035,
               "EndRegAddr": 5035,
@@ -3743,7 +3743,7 @@
             {
               "No": 4,
               "KeyMode": null,
-              "KeyDec": "逆变器效率",
+              "KeyDec": "逆变器9-逆变器效率",
               "KeyCoe": 0.01,
               "StartRegAddr": 5036,
               "EndRegAddr": 5036,
@@ -3755,7 +3755,7 @@
             {
               "No": 5,
               "KeyMode": null,
-              "KeyDec": "设备工作状态",
+              "KeyDec": "逆变器9-设备工作状态",
               "KeyCoe": 1.0,
               "StartRegAddr": 5037,
               "EndRegAddr": 5037,
@@ -3768,20 +3768,20 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 24,
           "DataItemCount": 1,
           "SlaveDevAddr": 9,
+          "ModbusRegAddr": 5070,
           "GetRegCount": 1,
           "AreaNum": 2,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5070,
           "HighAddr": 5070,
           "DataFormat": 0,
-          "StoreRegStartAddr": 24,
-          "ModbusRegAddr": 5070,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "方阵绝缘阻抗"
+            "逆变器9-方阵绝缘阻抗"
           ],
           "KeyMode": [
             ""
@@ -3794,20 +3794,20 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 25,
           "DataItemCount": 1,
           "SlaveDevAddr": 9,
+          "ModbusRegAddr": 5113,
           "GetRegCount": 1,
           "AreaNum": 3,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5113,
           "HighAddr": 5113,
           "DataFormat": 0,
-          "StoreRegStartAddr": 25,
-          "ModbusRegAddr": 5113,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "日并网运行时间分钟"
+            "逆变器9-日并网运行时间分钟"
           ],
           "KeyMode": [
             ""
@@ -3820,29 +3820,29 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 26,
           "DataItemCount": 10,
           "SlaveDevAddr": 9,
+          "ModbusRegAddr": 5114,
           "GetRegCount": 10,
           "AreaNum": 4,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5114,
           "HighAddr": 5123,
           "DataFormat": 0,
-          "StoreRegStartAddr": 26,
-          "ModbusRegAddr": 5114,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "MPPT4电压",
-            "MPPT4电流 ",
-            "MPPT5电压",
-            "MPPT5电流 ",
-            "MPPT6电压",
-            "MPPT6电流 ",
-            "MPPT7电压",
-            "MPPT7电流 ",
-            "MPPT8电压",
-            "MPPT8电流 "
+            "逆变器9-MPPT4电压",
+            "逆变器9-MPPT4电流",
+            "逆变器9-MPPT5电压",
+            "逆变器9-MPPT5电流",
+            "逆变器9-MPPT6电压",
+            "逆变器9-MPPT6电流",
+            "逆变器9-MPPT7电压",
+            "逆变器9-MPPT7电流",
+            "逆变器9-MPPT8电压",
+            "逆变器9-MPPT8电流"
           ],
           "KeyMode": [
             "",
@@ -3880,18 +3880,18 @@
       "data": [
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 1,
           "DataItemCount": 17,
           "SlaveDevAddr": 10,
+          "ModbusRegAddr": 5002,
           "GetRegCount": 22,
           "AreaNum": 0,
           "DataProperty": 1,
           "DataType": "ModbusDataType_MultiType",
+          "DataTypeEnum": 7,
           "LowAddr": 5002,
           "HighAddr": 5023,
           "DataFormat": 0,
-          "StoreRegStartAddr": 1,
-          "ModbusRegAddr": 5002,
-          "DataTypeEnum": 7,
           "KeyDec": null,
           "KeyMode": null,
           "KeyCoe": null,
@@ -3900,7 +3900,7 @@
             {
               "No": 0,
               "KeyMode": null,
-              "KeyDec": "日发电量",
+              "KeyDec": "逆变器10-日发电量",
               "KeyCoe": 0.1,
               "StartRegAddr": 5002,
               "EndRegAddr": 5002,
@@ -3912,7 +3912,7 @@
             {
               "No": 1,
               "KeyMode": null,
-              "KeyDec": "总发电量",
+              "KeyDec": "逆变器10-总发电量",
               "KeyCoe": 1.0,
               "StartRegAddr": 5003,
               "EndRegAddr": 5004,
@@ -3924,7 +3924,7 @@
             {
               "No": 2,
               "KeyMode": null,
-              "KeyDec": "总并网运行时间",
+              "KeyDec": "逆变器10-总并网运行时间",
               "KeyCoe": 1.0,
               "StartRegAddr": 5005,
               "EndRegAddr": 5006,
@@ -3936,7 +3936,7 @@
             {
               "No": 3,
               "KeyMode": null,
-              "KeyDec": "总视在功率",
+              "KeyDec": "逆变器10-总视在功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5008,
               "EndRegAddr": 5009,
@@ -3948,7 +3948,7 @@
             {
               "No": 4,
               "KeyMode": null,
-              "KeyDec": "MPPT1电压",
+              "KeyDec": "逆变器10-MPPT1电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5010,
               "EndRegAddr": 5010,
@@ -3960,7 +3960,7 @@
             {
               "No": 5,
               "KeyMode": null,
-              "KeyDec": "MPPT1电流",
+              "KeyDec": "逆变器10-MPPT1电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5011,
               "EndRegAddr": 5011,
@@ -3972,7 +3972,7 @@
             {
               "No": 6,
               "KeyMode": null,
-              "KeyDec": "MPPT2电压",
+              "KeyDec": "逆变器10-MPPT2电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5012,
               "EndRegAddr": 5012,
@@ -3984,7 +3984,7 @@
             {
               "No": 7,
               "KeyMode": null,
-              "KeyDec": "MPPT2电流",
+              "KeyDec": "逆变器10-MPPT2电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5013,
               "EndRegAddr": 5013,
@@ -3996,7 +3996,7 @@
             {
               "No": 8,
               "KeyMode": null,
-              "KeyDec": "MPPT3电压",
+              "KeyDec": "逆变器10-MPPT3电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5014,
               "EndRegAddr": 5014,
@@ -4008,7 +4008,7 @@
             {
               "No": 9,
               "KeyMode": null,
-              "KeyDec": "MPPT3电流",
+              "KeyDec": "逆变器10-MPPT3电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5015,
               "EndRegAddr": 5015,
@@ -4020,7 +4020,7 @@
             {
               "No": 10,
               "KeyMode": null,
-              "KeyDec": "总直流功率 ",
+              "KeyDec": "逆变器10-总直流功率 ",
               "KeyCoe": 0.001,
               "StartRegAddr": 5016,
               "EndRegAddr": 5017,
@@ -4032,7 +4032,7 @@
             {
               "No": 11,
               "KeyMode": null,
-              "KeyDec": "A相电压",
+              "KeyDec": "逆变器10-A相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5018,
               "EndRegAddr": 5018,
@@ -4044,7 +4044,7 @@
             {
               "No": 12,
               "KeyMode": null,
-              "KeyDec": "B相电压",
+              "KeyDec": "逆变器10-B相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5019,
               "EndRegAddr": 5019,
@@ -4056,7 +4056,7 @@
             {
               "No": 13,
               "KeyMode": null,
-              "KeyDec": "C相电压",
+              "KeyDec": "逆变器10-C相电压",
               "KeyCoe": 0.1,
               "StartRegAddr": 5020,
               "EndRegAddr": 5020,
@@ -4068,7 +4068,7 @@
             {
               "No": 14,
               "KeyMode": null,
-              "KeyDec": "A相电流",
+              "KeyDec": "逆变器10-A相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5021,
               "EndRegAddr": 5021,
@@ -4080,7 +4080,7 @@
             {
               "No": 15,
               "KeyMode": null,
-              "KeyDec": "B相电流",
+              "KeyDec": "逆变器10-B相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5022,
               "EndRegAddr": 5022,
@@ -4092,7 +4092,7 @@
             {
               "No": 16,
               "KeyMode": null,
-              "KeyDec": "C相电流",
+              "KeyDec": "逆变器10-C相电流",
               "KeyCoe": 0.1,
               "StartRegAddr": 5023,
               "EndRegAddr": 5023,
@@ -4105,18 +4105,18 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 18,
           "DataItemCount": 6,
           "SlaveDevAddr": 10,
+          "ModbusRegAddr": 5030,
           "GetRegCount": 8,
           "AreaNum": 1,
           "DataProperty": 1,
           "DataType": "ModbusDataType_MultiType",
+          "DataTypeEnum": 7,
           "LowAddr": 5030,
           "HighAddr": 5037,
           "DataFormat": 0,
-          "StoreRegStartAddr": 18,
-          "ModbusRegAddr": 5030,
-          "DataTypeEnum": 7,
           "KeyDec": null,
           "KeyMode": null,
           "KeyCoe": null,
@@ -4125,7 +4125,7 @@
             {
               "No": 0,
               "KeyMode": null,
-              "KeyDec": "总有功功率",
+              "KeyDec": "逆变器10-总有功功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5030,
               "EndRegAddr": 5031,
@@ -4137,7 +4137,7 @@
             {
               "No": 1,
               "KeyMode": null,
-              "KeyDec": "总无功功率",
+              "KeyDec": "逆变器10-总无功功率",
               "KeyCoe": 0.001,
               "StartRegAddr": 5032,
               "EndRegAddr": 5033,
@@ -4149,7 +4149,7 @@
             {
               "No": 2,
               "KeyMode": null,
-              "KeyDec": "总功率因数",
+              "KeyDec": "逆变器10-总功率因数",
               "KeyCoe": 0.001,
               "StartRegAddr": 5034,
               "EndRegAddr": 5034,
@@ -4161,7 +4161,7 @@
             {
               "No": 3,
               "KeyMode": null,
-              "KeyDec": "电网频率",
+              "KeyDec": "逆变器10-电网频率",
               "KeyCoe": 0.1,
               "StartRegAddr": 5035,
               "EndRegAddr": 5035,
@@ -4173,7 +4173,7 @@
             {
               "No": 4,
               "KeyMode": null,
-              "KeyDec": "逆变器效率",
+              "KeyDec": "逆变器10-逆变器效率",
               "KeyCoe": 0.01,
               "StartRegAddr": 5036,
               "EndRegAddr": 5036,
@@ -4185,7 +4185,7 @@
             {
               "No": 5,
               "KeyMode": null,
-              "KeyDec": "设备工作状态",
+              "KeyDec": "逆变器10-设备工作状态",
               "KeyCoe": 1.0,
               "StartRegAddr": 5037,
               "EndRegAddr": 5037,
@@ -4198,20 +4198,20 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 24,
           "DataItemCount": 1,
           "SlaveDevAddr": 10,
+          "ModbusRegAddr": 5070,
           "GetRegCount": 1,
           "AreaNum": 2,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5070,
           "HighAddr": 5070,
           "DataFormat": 0,
-          "StoreRegStartAddr": 24,
-          "ModbusRegAddr": 5070,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "方阵绝缘阻抗"
+            "逆变器10-方阵绝缘阻抗"
           ],
           "KeyMode": [
             ""
@@ -4224,20 +4224,20 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 25,
           "DataItemCount": 1,
           "SlaveDevAddr": 10,
+          "ModbusRegAddr": 5113,
           "GetRegCount": 1,
           "AreaNum": 3,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5113,
           "HighAddr": 5113,
           "DataFormat": 0,
-          "StoreRegStartAddr": 25,
-          "ModbusRegAddr": 5113,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "日并网运行时间分钟"
+            "逆变器10-日并网运行时间分钟"
           ],
           "KeyMode": [
             ""
@@ -4250,29 +4250,29 @@
         },
         {
           "ModbusCmd": 4,
+          "StoreRegStartAddr": 26,
           "DataItemCount": 10,
           "SlaveDevAddr": 10,
+          "ModbusRegAddr": 5114,
           "GetRegCount": 10,
           "AreaNum": 4,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
           "LowAddr": 5114,
           "HighAddr": 5123,
           "DataFormat": 0,
-          "StoreRegStartAddr": 26,
-          "ModbusRegAddr": 5114,
-          "DataTypeEnum": 1,
           "KeyDec": [
-            "MPPT4电压",
-            "MPPT4电流 ",
-            "MPPT5电压",
-            "MPPT5电流 ",
-            "MPPT6电压",
-            "MPPT6电流 ",
-            "MPPT7电压",
-            "MPPT7电流 ",
-            "MPPT8电压",
-            "MPPT8电流 "
+            "逆变器10-MPPT4电压",
+            "逆变器10-MPPT4电流",
+            "逆变器10-MPPT5电压",
+            "逆变器10-MPPT5电流",
+            "逆变器10-MPPT6电压",
+            "逆变器10-MPPT6电流",
+            "逆变器10-MPPT7电压",
+            "逆变器10-MPPT7电流",
+            "逆变器10-MPPT8电压",
+            "逆变器10-MPPT8电流"
           ],
           "KeyMode": [
             "",
