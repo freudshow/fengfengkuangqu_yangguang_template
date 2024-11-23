@@ -39,7 +39,344 @@
   "Para": [
     {
       "SN": 0,
-      "Running_info": [],
+      "Running_info": [
+        {
+          "No": 1,
+          "Addr": 32800,
+          "Desc": "并网点有功AGC调节",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 8
+        },
+        {
+          "No": 2,
+          "Addr": 32801,
+          "Desc": "并网点无功调节",
+          "Unit": "整形4字节",
+          "Type": 2,
+          "MapAddr": 18
+        },
+        {
+          "No": 3,
+          "Addr": 32802,
+          "Desc": "逆变器1-有功调节",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 19
+        },
+        {
+          "No": 4,
+          "Addr": 32803,
+          "Desc": "逆变器1-无功调节",
+          "Unit": "整形4字节",
+          "Type": 2,
+          "MapAddr": 18
+        },
+        {
+          "No": 5,
+          "Addr": 32804,
+          "Desc": "测试1",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 0
+        },
+        {
+          "No": 6,
+          "Addr": 32805,
+          "Desc": "测试2",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 1
+        },
+        {
+          "No": 7,
+          "Addr": 32806,
+          "Desc": "逆变器2-有功调节",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 19
+        },
+        {
+          "No": 8,
+          "Addr": 32807,
+          "Desc": "逆变器2-无功调节",
+          "Unit": "整形4字节",
+          "Type": 2,
+          "MapAddr": 18
+        },
+        {
+          "No": 9,
+          "Addr": 32808,
+          "Desc": "测试1",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 0
+        },
+        {
+          "No": 10,
+          "Addr": 32809,
+          "Desc": "测试2",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 1
+        },
+        {
+          "No": 11,
+          "Addr": 32810,
+          "Desc": "逆变器3-有功调节",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 19
+        },
+        {
+          "No": 12,
+          "Addr": 32811,
+          "Desc": "逆变器3-无功调节",
+          "Unit": "整形4字节",
+          "Type": 2,
+          "MapAddr": 18
+        },
+        {
+          "No": 13,
+          "Addr": 32812,
+          "Desc": "测试1",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 0
+        },
+        {
+          "No": 14,
+          "Addr": 32813,
+          "Desc": "测试2",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 1
+        },
+        {
+          "No": 15,
+          "Addr": 32814,
+          "Desc": "逆变器4-有功调节",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 19
+        },
+        {
+          "No": 16,
+          "Addr": 32815,
+          "Desc": "逆变器4-无功调节",
+          "Unit": "整形4字节",
+          "Type": 2,
+          "MapAddr": 18
+        },
+        {
+          "No": 17,
+          "Addr": 32816,
+          "Desc": "测试1",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 0
+        },
+        {
+          "No": 18,
+          "Addr": 32817,
+          "Desc": "测试2",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 0
+        },
+        {
+          "No": 19,
+          "Addr": 32818,
+          "Desc": "逆变器5-有功调节",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 19
+        },
+        {
+          "No": 20,
+          "Addr": 32819,
+          "Desc": "逆变器5-无功调节",
+          "Unit": "整形4字节",
+          "Type": 2,
+          "MapAddr": 18
+        },
+        {
+          "No": 21,
+          "Addr": 32820,
+          "Desc": "测试1",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 0
+        },
+        {
+          "No": 22,
+          "Addr": 32821,
+          "Desc": "测试2",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 1
+        },
+        {
+          "No": 23,
+          "Addr": 32822,
+          "Desc": "逆变器6-有功调节",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 19
+        },
+        {
+          "No": 24,
+          "Addr": 32823,
+          "Desc": "逆变器6-无功调节",
+          "Unit": "整形4字节",
+          "Type": 2,
+          "MapAddr": 18
+        },
+        {
+          "No": 25,
+          "Addr": 32824,
+          "Desc": "测试1",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 0
+        },
+        {
+          "No": 26,
+          "Addr": 32825,
+          "Desc": "测试2",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 1
+        },
+        {
+          "No": 27,
+          "Addr": 32826,
+          "Desc": "逆变器7-有功调节",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 19
+        },
+        {
+          "No": 28,
+          "Addr": 32827,
+          "Desc": "逆变器7-无功调节",
+          "Unit": "整形4字节",
+          "Type": 2,
+          "MapAddr": 18
+        },
+        {
+          "No": 29,
+          "Addr": 32828,
+          "Desc": "测试1",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 0
+        },
+        {
+          "No": 30,
+          "Addr": 32829,
+          "Desc": "测试2",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 1
+        },
+        {
+          "No": 31,
+          "Addr": 32830,
+          "Desc": "逆变器8-有功调节",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 19
+        },
+        {
+          "No": 32,
+          "Addr": 32831,
+          "Desc": "逆变器8-无功调节",
+          "Unit": "整形4字节",
+          "Type": 2,
+          "MapAddr": 18
+        },
+        {
+          "No": 33,
+          "Addr": 32832,
+          "Desc": "测试1",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 0
+        },
+        {
+          "No": 34,
+          "Addr": 32833,
+          "Desc": "测试2",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 1
+        },
+        {
+          "No": 35,
+          "Addr": 32834,
+          "Desc": "逆变器9-有功调节",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 19
+        },
+        {
+          "No": 36,
+          "Addr": 32835,
+          "Desc": "逆变器9-无功调节",
+          "Unit": "整形4字节",
+          "Type": 2,
+          "MapAddr": 18
+        },
+        {
+          "No": 37,
+          "Addr": 32836,
+          "Desc": "测试1",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 0
+        },
+        {
+          "No": 38,
+          "Addr": 32837,
+          "Desc": "测试2",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 1
+        },
+        {
+          "No": 39,
+          "Addr": 32838,
+          "Desc": "逆变器10-有功调节",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 19
+        },
+        {
+          "No": 40,
+          "Addr": 32839,
+          "Desc": "逆变器10-无功调节",
+          "Unit": "整形4字节",
+          "Type": 2,
+          "MapAddr": 18
+        },
+        {
+          "No": 41,
+          "Addr": 32840,
+          "Desc": "测试1",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 0
+        },
+        {
+          "No": 42,
+          "Addr": 32841,
+          "Desc": "测试2",
+          "Unit": "float4字节",
+          "Type": 38,
+          "MapAddr": 1
+        }
+      ],
       "Actionfixed_info": []
     }
   ],
